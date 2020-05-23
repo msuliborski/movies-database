@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns="https://www.suliborski.com/movies">
+  <movie xmlns="">
+    <title>Toy Story</title>
+    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg</image-URL>
+    <release-date-USA>November&amp;#160;19,&amp;#160;1995</release-date-USA>
+    <country>United States</country>
+    <director>John Lasseter</director>
+    <producers>
+      <producer>Bonnie Arnold</producer>
+      <producer>Ralph Guggenheim</producer>
+    </producers>
+    <cast>
+      <actor>Tom Hanks</actor>
+      <actor>Tim Allen</actor>
+      <actor>Don Rickles</actor>
+      <actor>Jim Varney</actor>
+      <actor>Wallace Shawn</actor>
+      <actor>John Ratzenberger</actor>
+      <actor>Annie Potts</actor>
+      <actor>John Morris</actor>
+      <actor>Erik von Detten</actor>
+    </cast>
+    <duration>81 minutes</duration>
+    <distributed-by>Buena Vista Pictures Distribution</distributed-by>
+    <original-language>English</original-language>
+    <music>
+      <author>Randy Newman</author>
+    </music>
+    <budget>&amp;#91;2&amp;#93;</budget>
+    <box-office>$373.6&amp;#160;million</box-office>
+  </movie>
+  <movie xmlns="">
+    <title>Dr. Dolittle</title>
+    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Dr_dolittle_movie_1998.jpg/220px-Dr_dolittle_movie_1998.jpg</image-URL>
+    <release-date-USA>June&amp;#160;26,&amp;#160;1998</release-date-USA>
+    <country>United States</country>
+    <director>Betty Thomas</director>
+    <producers>
+      <producer>John Davis</producer>
+      <producer>David T. Friendly</producer>
+      <producer>Joseph M. Singer</producer>
+    </producers>
+    <cast>
+      <actor>Eddie Murphy</actor>
+      <actor>Ossie Davis</actor>
+      <actor>Oliver Platt</actor>
+    </cast>
+    <duration>85 minutes</duration>
+    <distributed-by>20th Century Fox</distributed-by>
+    <original-language>English</original-language>
+    <music>
+      <author>Richard Gibbs</author>
+    </music>
+    <budget>$70.5 million</budget>
+    <box-office>$294.4 million</box-office>
+  </movie>
+</movies>
