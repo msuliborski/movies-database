@@ -101,6 +101,17 @@ public class Wrapper {
         return movie;
     }
 
+    public static Element getRootElementFromXMLFile(String fileName) {
+        try {
+            SAXBuilder builder = new SAXBuilder();
+            File xmlFile = new File(fileName);
+
+            Document document = builder.build(xmlFile);
+            return document.getRootElement().detach();
+        } catch (JDOMException | IOException ignore) { }
+        return null;
+    }
+
     public static Movie elementToMovie(Element movieElement) {
         Movie movie = new Movie();
 
@@ -118,19 +129,20 @@ public class Wrapper {
         for (Element actorElement : castElement.getChildren())
             movie.getCast().add(actorElement.getValue());
 
-        movie.setDirector(movieElement.getChild("duration").getText());
-        movie.setDirector(movieElement.getChild("distributed-by").getText());
-        movie.setDirector(movieElement.getChild("original-language").getText());
+        movie.setDuration(movieElement.getChild("duration").getText());
+        movie.setDistributedBy(movieElement.getChild("distributed-by").getText());
+        movie.setOriginalLanguage(movieElement.getChild("original-language").getText());
 
         Element musicElement = movieElement.getChild("music");
         for (Element musicianElement : musicElement.getChildren())
-            movie.getCast().add(musicianElement.getValue());
+            movie.getMusicAuthors().add(musicianElement.getValue());
 
-        movie.setDirector(movieElement.getChild("budget").getText());
-        movie.setDirector(movieElement.getChild("box-office").getText());
+        movie.setBudget(movieElement.getChild("budget").getText());
+        movie.setBoxOffice(movieElement.getChild("box-office").getText());
 
         return movie;
     }
+
     public static Element movieToElement(Movie movie) {
         Element movieElement = new Element("movie");
         movieElement.addContent(new Element("title").setText(movie.getTitle()));
@@ -164,6 +176,15 @@ public class Wrapper {
         return movieElement;
     }
 
+    public static void saveRootElementInXMLFile(Element rootElement, String fileName) {
+        Document document = new Document();
+        document.setRootElement(rootElement);
+        XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
+        try {
+            xmlOutputter.output(document, new FileOutputStream(fileName));
+        } catch (IOException ignore) { }
+    }
+
     public static void moviesToNewXMLFile(List<Movie> movies, String fileName) {
         Document document = new Document();
         document.setRootElement(new Element("movies", Namespace.getNamespace("https://www.suliborski.com/movies")));
@@ -177,60 +198,90 @@ public class Wrapper {
 
     }
 
-    public static Movie getMovieFromXMLFile(String title, String filename) {
-        try {
-            SAXBuilder builder = new SAXBuilder();
-            File xmlFile = new File(filename);
+    public static Movie getMovieFromXMLFile(String title, String fileName) {
 
-            Document document = builder.build(xmlFile);
-            Element moviesElement = document.getRootElement();
+            Element rootElement = getRootElementFromXMLFile(fileName);
 
-            List<Element> movieElements = moviesElement.getChildren("movie");
+            List<Element> movieElements = rootElement.getChildren("movie");
 
             for (Element movieElement : movieElements)
-                if (movieElement.getChild("title").getText().equals(title))
+                if (movieElement.getChild("title").getText().equals(title)) {
                     return elementToMovie(movieElement);
+                }
 
-        } catch (JDOMException | IOException ignore) { }
-        return null;
+            return null;
     }
 
-    public static void addMovieToXMLFile(Movie movie, String filename) {
-        try {
-            File file = new File(filename);
-            if (file.exists() && !file.isDirectory()) {
-                SAXBuilder builder = new SAXBuilder();
-                File xmlFile = new File(filename);
+    public static void addMovieToXMLFile(Movie movie, String fileName) {
+        File file = new File(fileName);
+        if (file.exists() && !file.isDirectory()) {
+            saveRootElementInXMLFile(getRootElementFromXMLFile(fileName).addContent(movieToElement(movie)), fileName);
+        } else {
+            List<Movie> movieList = new ArrayList<>();
+            movieList.add(movie);
+            moviesToNewXMLFile(movieList, fileName);
+        }
+    }
 
-                builder.build(xmlFile).getRootElement().addContent(movieToElement(movie));
+    public static void deleteMovieFromXMLFile(String title, String fileName) {
+        Element rootElement = getRootElementFromXMLFile(fileName);
+        Element movieToDelete = null;
+        List<Element> movieElements = rootElement.getChildren("movie");
 
-            } else {
-                List<Movie> movieList = new ArrayList<>();
-                movieList.add(movie);
-                moviesToNewXMLFile(movieList, filename);
+        for (Element movieElement : movieElements)
+            if (movieElement.getChild("title").getText().equals(title)){
+                movieToDelete = movieElement;
+            }
+        rootElement.removeContent(movieToDelete);
+        saveRootElementInXMLFile(rootElement, fileName);
+    }
+
+    public static void editMovieInXMLFile(String title, String fileName, Movie newMovieData) {
+        Movie movie = getMovieFromXMLFile(title, fileName);
+
+        Element rootElement = getRootElementFromXMLFile(fileName);
+        Element movieElement = null;
+
+        List<Element> movieElements = rootElement.getChildren("movie");
+
+        for (Element e : movieElements)
+            if (e.getChild("title").getText().equals(title)) {
+                movieElement = e;
             }
 
-        } catch (JDOMException | IOException ignore) { }
+        movieElement.getChild("title").setText(movie.getTitle());
+        movieElement.getChild("image-URL").setText(movie.getImageURL());
+        movieElement.getChild("release-date-USA").setText(movie.getReleaseDateUSA());
+        movieElement.getChild("country").setText(movie.getCountry());
+        movieElement.getChild("director").setText(movie.getDirector());
+
+        Element producersElement = new Element("producers");
+        for (String producer : movie.getProducers())
+            producersElement.getChild("producer").setText(producer);
+        movieElement.removeContent(movieElement.getChild("producers"));
+        movieElement.addContent(producersElement);
+
+        Element castElement = new Element("cast");
+        for (String actor : movie.getCast())
+            castElement.getChild("actor").setText(actor);
+        movieElement.removeContent(movieElement.getChild("cast"));
+        movieElement.addContent(castElement);
+
+        movieElement.getChild("duration").setText(movie.getDuration());
+        movieElement.getChild("distributed-by").setText(movie.getDistributedBy());
+        movieElement.getChild("original-language").setText(movie.getOriginalLanguage());
+
+        Element musiciansElement = new Element("music");
+        for (String musician : movie.getMusicAuthors())
+            musiciansElement.getChild("author").setText(musician);
+        movieElement.removeContent(movieElement.getChild("music"));
+        movieElement.addContent(musiciansElement);
+
+        movieElement.getChild("budget").setText(movie.getBudget());
+        movieElement.getChild("box-office").setText(movie.getBoxOffice());
+
+        saveRootElementInXMLFile(rootElement, fileName);
     }
-
-    public static void deleteMovieFromXMLFile(String title, String filename) {
-        try {
-            SAXBuilder builder = new SAXBuilder();
-            File xmlFile = new File(filename);
-
-            Document document = builder.build(xmlFile);
-            Element moviesElement = document.getRootElement();
-
-            List<Element> movieElements = moviesElement.getChildren("movie");
-
-            for (Element movieElement : movieElements)
-                if (movieElement.getChild("title").getText().equals(title))
-                    moviesElement.removeContent(movieElement);
-
-        } catch (JDOMException | IOException ignore) { }
-    }
-
-    public static void editMovieToXMLFile(String title, Movie newMovieData) {}
 
 }
 

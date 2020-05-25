@@ -1,0 +1,75 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT ns1:movies (movie)>
+<!ATTLIST ns1:movies
+        xmlns:ns1 CDATA #FIXED 'https://www.suliborski.com/movies'>
+
+<!ELEMENT movie (title,image-URL,release-date-USA,country,director,
+        producers,cast,duration,distributed-by,
+        original-language,music,budget,box-office)>
+<!ATTLIST movie
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT image-URL (#PCDATA)>
+<!ATTLIST image-URL
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT release-date-USA (#PCDATA)>
+<!ATTLIST release-date-USA
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST country
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST director
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT producers (producer)+>
+<!ATTLIST producers
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT cast (actor)+>
+<!ATTLIST cast
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT duration (#PCDATA)>
+<!ATTLIST duration
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT distributed-by (#PCDATA)>
+<!ATTLIST distributed-by
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT original-language (#PCDATA)>
+<!ATTLIST original-language
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT music (author)>
+<!ATTLIST music
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT budget (#PCDATA)>
+<!ATTLIST budget
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT box-office (#PCDATA)>
+<!ATTLIST box-office
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT producer (#PCDATA)>
+<!ATTLIST producer
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT actor (#PCDATA)>
+<!ATTLIST actor
+        xmlns CDATA #FIXED ''>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+        xmlns CDATA #FIXED ''>

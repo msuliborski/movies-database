@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified"
+        targetNamespace="https://www.suliborski.com/movies"
+        xmlns:movies="https://www.suliborski.com/movies">
+    <xs:element name="movies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="movie" form="unqualified">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" form="unqualified" type="xs:string"/>
+                            <xs:element name="image-URL" form="unqualified" type="xs:string"/>
+                            <xs:element name="release-date-USA" form="unqualified" type="xs:string"/>
+                            <xs:element name="country" form="unqualified" type="xs:string"/>
+                            <xs:element name="director" form="unqualified" type="xs:string"/>
+                            <xs:element name="producers" form="unqualified">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="producer" form="unqualified" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cast" form="unqualified">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="actor" form="unqualified" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="duration" form="unqualified" type="xs:string"/>
+                            <xs:element name="distributed-by" form="unqualified" type="xs:string"/>
+                            <xs:element name="original-language" form="unqualified" type="xs:NCName"/>
+                            <xs:element name="music" form="unqualified">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="author" form="unqualified" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="budget" form="unqualified" type="xs:string"/>
+                            <xs:element name="box-office" form="unqualified" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

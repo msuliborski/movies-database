@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Dr. Dolittle (1998 film) - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"XskdkwpAMNYAAzmdlr8AAACQ","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Dr._Dolittle_(1998_film)","wgTitle":"Dr. Dolittle (1998 film)","wgCurRevisionId":958373863,"wgRevisionId":958373863,"wgArticleId":2511602,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Template film date with 1 release date","Pages using infobox film with deprecated parameters","Articles with hAudio microformats","Album infoboxes lacking a cover","Album articles lacking alt text for covers","Articles to be expanded from March 2016",
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"XslLzgpAMM4AAeZNQHUAAABJ","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Dr._Dolittle_(1998_film)","wgTitle":"Dr. Dolittle (1998 film)","wgCurRevisionId":958373863,"wgRevisionId":958373863,"wgArticleId":2511602,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Template film date with 1 release date","Pages using infobox film with deprecated parameters","Articles with hAudio microformats","Album infoboxes lacking a cover","Album articles lacking alt text for covers","Articles to be expanded from March 2016",
 "All articles to be expanded","Articles using small message boxes","1998 films","English-language films","Doctor Dolittle films","20th Century Fox films","American films","1990s fantasy-comedy films","American fantasy-comedy films","American children's comedy films","American film remakes","Films about surgeons","Films directed by Betty Thomas","Films produced by John Davis","Films set in San Francisco","Films set in the San Francisco Bay Area","Films shot in San Francisco","Davis Entertainment films","African-American comedy films"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Dr._Dolittle_(1998_film)","wgRelevantArticleId":2511602,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":
 "ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q663014","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","skins.vector.js","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.gadget.ReferenceTooltips",
 "ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
@@ -289,13 +289,13 @@
 </div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1346
-Cached time: 20200523124738
+Parsed by mw1364
+Cached time: 20200523161407
 Cache expiry: 3600
 Dynamic content: true
 Complications: [vary?revision?sha1]
-CPU time usage: 0.496 seconds
-Real time usage: 0.709 seconds
+CPU time usage: 0.516 seconds
+Real time usage: 0.720 seconds
 Preprocessor visited node count: 3116/1000000
 Post?expand include size: 58257/2097152 bytes
 Template argument size: 5683/2097152 bytes
@@ -304,24 +304,24 @@ Expensive parser function count: 3/500
 Unstrip recursion depth: 1/20
 Unstrip post?expand size: 23764/5000000 bytes
 Number of Wikibase entities loaded: 1/400
-Lua time usage: 0.221/10.000 seconds
+Lua time usage: 0.217/10.000 seconds
 Lua memory usage: 5.22 MB/50 MB
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  631.420      1 -total
- 34.23%  216.136      3 Template:Infobox
- 29.09%  183.698      1 Template:Reflist
- 22.28%  140.656      1 Template:Infobox_album
- 19.86%  125.409      1 Template:Infobox_film
- 18.32%  115.648      6 Template:Cite_web
-  8.67%   54.764      1 Template:Short_description
-  8.14%   51.424      2 Template:IMDb_title
-  6.15%   38.801      1 Template:Pagetype
-  5.36%   33.838      1 Template:Singles
+100.00%  637.826      1 -total
+ 31.47%  200.735      3 Template:Infobox
+ 30.68%  195.684      1 Template:Reflist
+ 19.77%  126.111      1 Template:Infobox_album
+ 19.45%  124.040      6 Template:Cite_web
+ 18.20%  116.059      1 Template:Infobox_film
+ 10.18%   64.907      1 Template:Short_description
+  8.15%   51.957      2 Template:IMDb_title
+  7.16%   45.672      1 Template:Pagetype
+  5.11%   32.601      1 Template:Singles
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:2511602-0!canonical and timestamp 20200523124739 and revision id 958373863
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2511602-0!canonical and timestamp 20200523161406 and revision id 958373863
  -->
 </div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
 		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Dr._Dolittle_(1998_film)&amp;oldid=958373863">https://en.wikipedia.org/w/index.php?title=Dr._Dolittle_(1998_film)&amp;oldid=958373863</a>"</div>
@@ -493,6 +493,6 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </div>
 
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.496","walltime":"0.709","ppvisitednodes":{"value":3116,"limit":1000000},"postexpandincludesize":{"value":58257,"limit":2097152},"templateargumentsize":{"value":5683,"limit":2097152},"expansiondepth":{"value":23,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":23764,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  631.420      1 -total"," 34.23%  216.136      3 Template:Infobox"," 29.09%  183.698      1 Template:Reflist"," 22.28%  140.656      1 Template:Infobox_album"," 19.86%  125.409      1 Template:Infobox_film"," 18.32%  115.648      6 Template:Cite_web","  8.67%   54.764      1 Template:Short_description","  8.14%   51.424      2 Template:IMDb_title","  6.15%   38.801      1 Template:Pagetype","  5.36%   33.838      1 Template:Singles"]},"scribunto":{"limitreport-timeusage":{"value":"0.221","limit":"10.000"},"limitreport-memusage":{"value":5468845,"limit":52428800}},"cachereport":{"origin":"mw1346","timestamp":"20200523124738","ttl":3600,"transientcontent":true}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.516","walltime":"0.720","ppvisitednodes":{"value":3116,"limit":1000000},"postexpandincludesize":{"value":58257,"limit":2097152},"templateargumentsize":{"value":5683,"limit":2097152},"expansiondepth":{"value":23,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":23764,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  637.826      1 -total"," 31.47%  200.735      3 Template:Infobox"," 30.68%  195.684      1 Template:Reflist"," 19.77%  126.111      1 Template:Infobox_album"," 19.45%  124.040      6 Template:Cite_web"," 18.20%  116.059      1 Template:Infobox_film"," 10.18%   64.907      1 Template:Short_description","  8.15%   51.957      2 Template:IMDb_title","  7.16%   45.672      1 Template:Pagetype","  5.11%   32.601      1 Template:Singles"]},"scribunto":{"limitreport-timeusage":{"value":"0.217","limit":"10.000"},"limitreport-memusage":{"value":5468837,"limit":52428800}},"cachereport":{"origin":"mw1364","timestamp":"20200523161407","ttl":3600,"transientcontent":true}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Dr. Dolittle (1998 film)","url":"https:\/\/en.wikipedia.org\/wiki\/Dr._Dolittle_(1998_film)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q663014","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q663014","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-22T11:15:52Z","dateModified":"2020-05-23T12:47:39Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/5f\/Dr_dolittle_movie_1998.jpg","headline":"1998 film directed by Betty Thomas"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":107,"wgHostname":"mw1372"});});</script></body></html>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":863,"wgHostname":"mw1364"});});</script></body></html>

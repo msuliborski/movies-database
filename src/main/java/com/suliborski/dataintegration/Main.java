@@ -18,10 +18,10 @@ public class Main {
 
         movieStrings.add("Toy Story");
         movieStrings.add("Dr. Dolittle (1998 film)");
-//        movieStrings.add("Pulp Fiction");
-//        movieStrings.add("Thelma & Louise");
-//        movieStrings.add("Blade Runner");
-//        movieStrings.add("Prometheus (2012 film)");
+        movieStrings.add("Pulp Fiction");
+        movieStrings.add("Thelma & Louise");
+        movieStrings.add("Blade Runner");
+        movieStrings.add("Prometheus (2012 film)");
 //        movieStrings.add("Back to the Future");
 //        movieStrings.add("Good Will Hunting");
 //        movieStrings.add("The Talented Mr. Ripley (film)");
@@ -50,7 +50,17 @@ public class Main {
         System.out.println("");
 //        System.out.println(movies);
 
-        Wrapper.moviesToNewXMLFile(movies, "movies.xml");
+
+        //test
+//        Wrapper.moviesToNewXMLFile(movies, "movies.xml");
+//
+//        System.out.println(Wrapper.getMovieFromXMLFile("Toy Story", "movies.xml"));
+//        Wrapper.addMovieToXMLFile(Wrapper.stringToMovie(HttpRequest.httpRequest(link, "Good Will Hunting", "output.txt")), "movies.xml");
+//        System.out.println(Wrapper.getMovieFromXMLFile("Good Will Hunting", "movies.xml"));
+//
+//        Wrapper.deleteMovieFromXMLFile("Toy Story", "movies.xml");
+
+
     }
 
 
