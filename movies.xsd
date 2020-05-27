@@ -1,46 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema
-        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        attributeFormDefault="unqualified"
         elementFormDefault="qualified"
-        targetNamespace="https://www.suliborski.com/movies"
-        xmlns:movies="https://www.suliborski.com/movies">
+        targetNamespace="http://suliborski.com/"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="movies">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="movie" form="unqualified">
+                <xs:element name="movie" maxOccurs="1" minOccurs="1">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="title" form="unqualified" type="xs:string"/>
-                            <xs:element name="image-URL" form="unqualified" type="xs:string"/>
-                            <xs:element name="release-date-USA" form="unqualified" type="xs:string"/>
-                            <xs:element name="country" form="unqualified" type="xs:string"/>
-                            <xs:element name="director" form="unqualified" type="xs:string"/>
-                            <xs:element name="producers" form="unqualified">
+                            <xs:element type="xs:string" name="title"/>
+                            <xs:element type="xs:string" name="image-URL"/>
+                            <xs:element type="xs:string" name="release-date-USA"/>
+                            <xs:element type="xs:string" name="country"/>
+                            <xs:element type="xs:string" name="director"/>
+                            <xs:element name="producers">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element maxOccurs="unbounded" name="producer" form="unqualified" type="xs:string"/>
+                                        <xs:element type="xs:string" name="producer" maxOccurs="unbounded" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="cast" form="unqualified">
+                            <xs:element name="cast">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element maxOccurs="unbounded" name="actor" form="unqualified" type="xs:string"/>
+                                        <xs:element type="xs:string" name="actor" maxOccurs="unbounded" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="duration" form="unqualified" type="xs:string"/>
-                            <xs:element name="distributed-by" form="unqualified" type="xs:string"/>
-                            <xs:element name="original-language" form="unqualified" type="xs:NCName"/>
-                            <xs:element name="music" form="unqualified">
+                            <xs:element type="xs:string" name="duration"/>
+                            <xs:element type="xs:string" name="distributed-by"/>
+                            <xs:element type="xs:string" name="original-language"/>
+                            <xs:element name="music">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="author" form="unqualified" type="xs:string"/>
+                                        <xs:element type="xs:string" name="author"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="budget" form="unqualified" type="xs:string"/>
-                            <xs:element name="box-office" form="unqualified" type="xs:string"/>
+                            <xs:element type="xs:string" name="budget"/>
+                            <xs:element type="xs:string" name="box-office"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

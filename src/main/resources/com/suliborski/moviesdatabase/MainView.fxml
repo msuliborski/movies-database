@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="769.0" prefWidth="640.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.suliborski.moviesdatabase.gui.Screen">
+    <children>
+        <MenuBar VBox.vgrow="NEVER">
+            <menus>
+                <Menu fx:id="file" mnemonicParsing="false" text="Siema">
+                    <items>
+                        <MenuItem fx:id="load" mnemonicParsing="false" text="Mordo"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Button fx:id="module1Button" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" onAction="#module1Button"
+                        prefHeight="60.0" prefWidth="620.0" text="Test module1 connection"/>
+                <Button fx:id="module2Button" layoutX="10.0" layoutY="466.0" mnemonicParsing="false" onAction="#module2Button"
+                        prefHeight="60.0" prefWidth="620.0" text="Test module2 connection"/>
+                <Button fx:id="wojtekButton" layoutX="10.0" layoutY="666.0" mnemonicParsing="false" onAction="#wojtek"
+                        prefHeight="60.0" prefWidth="620.0" text="Ni-nigdy nie jest dobrze"/>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
