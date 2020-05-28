@@ -1,32 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Menu?>
-<?import javafx.scene.control.MenuBar?>
-<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
 
-<VBox prefHeight="769.0" prefWidth="640.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.suliborski.moviesdatabase.gui.Screen">
+<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suliborski.moviesdatabase.gui.MainWindow">
     <children>
-        <MenuBar VBox.vgrow="NEVER">
-            <menus>
-                <Menu fx:id="file" mnemonicParsing="false" text="Siema">
-                    <items>
-                        <MenuItem fx:id="load" mnemonicParsing="false" text="Mordo"/>
-                    </items>
-                </Menu>
-            </menus>
-        </MenuBar>
         <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
             <children>
-                <Button fx:id="module1Button" layoutX="10.0" layoutY="266.0" mnemonicParsing="false" onAction="#module1Button"
-                        prefHeight="60.0" prefWidth="620.0" text="Test module1 connection"/>
-                <Button fx:id="module2Button" layoutX="10.0" layoutY="466.0" mnemonicParsing="false" onAction="#module2Button"
-                        prefHeight="60.0" prefWidth="620.0" text="Test module2 connection"/>
-                <Button fx:id="wojtekButton" layoutX="10.0" layoutY="666.0" mnemonicParsing="false" onAction="#wojtek"
-                        prefHeight="60.0" prefWidth="620.0" text="Ni-nigdy nie jest dobrze"/>
+                <Text id="xmlText4" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File/output viewer" />
+                <TextArea layoutX="14.0" layoutY="31.0" prefHeight="637.0" prefWidth="700.0" fx:id="xmlFileContent" />
+                <Button fx:id="validateDTDButton" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onAction="#validateDTD" text="Validate with DTD" />
+                <Button fx:id="validateXSDButton" layoutX="136.0" layoutY="681.0" mnemonicParsing="false" onAction="#validateXSD" text="Validate with XSD" />
+
+                <Text id="xmlText1" layoutX="722.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main options" />
+                <Button fx:id="showXMLFileButton" layoutX="722.0" layoutY="52.0" mnemonicParsing="false" onAction="#showXMLFile" prefHeight="25.0" prefWidth="150.0" text="Show XML File" />
+                <Button fx:id="showDTDButton" layoutX="883.0" layoutY="52.0" mnemonicParsing="false" onAction="#showDTD" prefHeight="25.0" prefWidth="150.0" text="Show DTD" />
+                <Button fx:id="showXSDButton" layoutX="1043.0" layoutY="52.0" mnemonicParsing="false" onAction="#showXSD" prefHeight="25.0" prefWidth="150.0" text="Show XSD" />
+                <Separator layoutX="721.0" layoutY="556.0" prefHeight="16.0" prefWidth="544.0" />
+
+                <Text id="xmlText1" layoutX="722.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manipulate data" />
+                <Button fx:id="addMovieButton" layoutX="721.0" layoutY="111.0" mnemonicParsing="false" onAction="#addMovie" prefHeight="25.0" prefWidth="150.0" text="Add movie" />
+                <Button fx:id="deleteMovieButton" layoutX="721.0" layoutY="144.0" mnemonicParsing="false" onAction="#deleteMovie" prefHeight="16.0" prefWidth="150.0" text="Delete movie" />
+                <Button fx:id="editYearButton" layoutX="721.0" layoutY="175.0" mnemonicParsing="false" onAction="#editYear" prefHeight="17.0" prefWidth="150.0" text="Edit movie's year" />
+                <Button fx:id="editDirectorButton" layoutX="721.0" layoutY="206.0" mnemonicParsing="false" onAction="#editDirector" prefHeight="17.0" prefWidth="150.0" text="Edit movie's director" />
+                <Button fx:id="editCountryButton" layoutX="721.0" layoutY="239.0" mnemonicParsing="false" onAction="#editCountry" prefHeight="17.0" prefWidth="150.0" text="Edit movie's country" />
+                <TextField fx:id="addMovieF1" layoutX="883.0" layoutY="111.0" promptText="Title" />
+                <TextField fx:id="deleteMovieF1" layoutX="883.0" layoutY="144.0" promptText="Title" />
+                <TextField fx:id="editYearF1" layoutX="883.0" layoutY="175.0" promptText="Title" />
+                <TextField fx:id="editYearF2" layoutX="1042.0" layoutY="175.0" promptText="New year" />
+                <TextField fx:id="editDirectorF1" layoutX="883.0" layoutY="206.0" promptText="Title" />
+                <TextField fx:id="editDirectorF2" layoutX="1042.0" layoutY="206.0" promptText="New director" />
+                <TextField fx:id="editCountryF1" layoutX="883.0" layoutY="239.0" promptText="Title" />
+                <TextField fx:id="editCountryF2" layoutX="1042.0" layoutY="239.0" promptText="New country" />
+                <Separator layoutX="721.0" layoutY="77.0" prefHeight="16.0" prefWidth="544.0" />
+
+                <Text id="xmlText2" layoutX="726.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xPath" />
+                <Button layoutX="721.0" layoutY="301.0" mnemonicParsing="false" onAction="#executeXPath1" prefHeight="25.0" prefWidth="150.0" text="xPath #1" fx:id="xPathButton1" />
+                <Button layoutX="721.0" layoutY="332.0" mnemonicParsing="false" onAction="#executeXPath2" prefHeight="25.0" prefWidth="150.0" text="xPath #2" fx:id="xPathButton2" />
+                <Button layoutX="721.0" layoutY="364.0" mnemonicParsing="false" onAction="#executeXPath3" prefHeight="25.0" prefWidth="150.0" text="xPath #3" fx:id="xPathButton3" />
+                <Button layoutX="721.0" layoutY="399.0" mnemonicParsing="false" onAction="#executeXPath4" prefHeight="25.0" prefWidth="150.0" text="xPath #4" fx:id="xPathButton4" />
+                <Button layoutX="721.0" layoutY="430.0" mnemonicParsing="false" onAction="#executeXPath5" prefHeight="25.0" prefWidth="150.0" text="xPath #5" fx:id="xPathButton5" />
+                <Button layoutX="721.0" layoutY="462.0" mnemonicParsing="false" onAction="#executeXPath6" prefHeight="25.0" prefWidth="150.0" text="xPath #6" fx:id="xPathButton6" />
+                <Button layoutX="721.0" layoutY="494.0" mnemonicParsing="false" onAction="#executeXPath7" prefHeight="25.0" prefWidth="150.0" text="xPath #7" fx:id="xPathButton7" />
+                <Button layoutX="721.0" layoutY="525.0" mnemonicParsing="false" onAction="#executeXPath8" prefHeight="25.0" prefWidth="150.0" text="xPath #8" fx:id="xPathButton8" />
+                <TextField layoutX="883.0" layoutY="301.0" promptText="Movie title" fx:id="xPath1F1" />
+                <TextField layoutX="883.0" layoutY="332.0" promptText="Director" fx:id="xPath2F1" />
+                <TextField layoutX="883.0" layoutY="364.0" prefHeight="25.0" prefWidth="309.0" promptText="Names of actors separated by ';' without space" fx:id="xPath3F1" />
+                <TextField layoutX="883.0" layoutY="399.0" promptText="Min duration" fx:id="xPath4F1" />
+                <TextField layoutX="1042.0" layoutY="399.0" promptText="Max duration" fx:id="xPath4F2" />
+                <TextField layoutX="883.0" layoutY="430.0" promptText="Country" fx:id="xPath5F1" />
+                <TextField layoutX="883.0" layoutY="462.0" promptText="Min year" fx:id="xPath6F1" />
+                <TextField layoutX="1042.0" layoutY="462.0" promptText="max year" fx:id="xPath6F2" />
+                <TextField layoutX="883.0" layoutY="494.0" promptText="Min box office [$ million]" fx:id="xPath7F1" />
+                <TextField layoutX="1042.0" layoutY="494.0" promptText="Max box office [$ million]" fx:id="xPath7F2" />
+                <TextField layoutX="883.0" layoutY="525.0" promptText="Language" fx:id="xPath8F1" />
+                <Separator layoutX="722.0" layoutY="268.0" prefHeight="16.0" prefWidth="544.0" />
+
+                <Text id="xmlText3" layoutX="722.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate XSLT outputs" />
+                <Button layoutX="721.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT1" prefHeight="25.0" prefWidth="110.0" text="XSLT #1" fx:id="xsltButton1" />
+                <Button layoutX="883.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT2" prefHeight="25.0" prefWidth="150.0" text="XSLT #2" fx:id="xsltButton2" />
+                <Button layoutX="1042.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT3" prefHeight="25.0" prefWidth="150.0" text="XSLT #3" fx:id="xsltButton3" />
+                <Button layoutX="722.0" layoutY="622.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="XSLT #4" fx:id="xsltButton4" />
+                <Button layoutX="884.0" layoutY="622.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="XSLT #5" fx:id="xsltButton5" />
+                <Button layoutX="1043.0" layoutY="622.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="XSLT #6" fx:id="xsltButton6" />
+            <Button layoutX="831.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT1" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xsltButton11" />
             </children>
         </AnchorPane>
     </children>

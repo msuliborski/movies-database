@@ -33,64 +33,56 @@ public class XPath {
                 e.printStackTrace();
             }
         }
-        return "";
+        return "nope";
     }
 
-    public static void XPathExercise1(String title){
+    public static String XPathExercise1(String title){
         System.out.println("Search for a movie title and show relevant information");
         String xp="//movies/movie[title='" + title + "']";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
-    public static void XPathExercise2(String director){ System.out.println("Search for films by a given director");
+    public static String XPathExercise2(String director){ System.out.println("Search for films by a given director");
         String xp="//movies/movie[director='" + director + "']/title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
-    public static void XPathExercise3(List<String> actors){
+    public static String XPathExercise3(List<String> actors){
         System.out.println("Search for films with the participation of a given actor / actors");
         String actorsString = "actor='" + String.join("' and actor='", actors) + "'";
         String xp="//movies/movie/cast[" + actorsString + "]/../title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
-    public static void XPathExercise4(int min, int max){
+    public static String XPathExercise4(int min, int max){
         System.out.println("Search for movies with a duration between a given interval");
         String xp="/movies/movie[duration>=" + min + " and duration<=" + max + "]/title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
-    public static void XPathExercise5(String country){
+    public static String XPathExercise5(String country){
         System.out.println("Search for films from a given country");
         String xp="/movies/movie[country='" + country + "']/title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
 
-    public static void XPathExercise6(int min, int max){
+    public static String XPathExercise6(int min, int max){
         System.out.println("Search for movies with a year between a given interval");
         String xp="/movies/movie[year>=" + min + " and year<=" + max + "]/title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
 
-    public static void XPathExercise7(int min, int max){
+    public static String XPathExercise7(int min, int max){
         System.out.println("Search for movies with a box office between a given interval");
         String xp="/movies/movie[box-office>=" + min + " and box-office<=" + max + "]/title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 
-    public static void XPathExercise8(String language){
+    public static String XPathExercise8(String language){
         System.out.println("Search for films in a given language");
         String xp="/movies/movie[original-language='" + language + "']/title";
-        String result = XPath.execute(xp, "movies.xml");
-        System.out.println(result);
+        return XPath.execute(xp, "movies.xml");
     }
 }

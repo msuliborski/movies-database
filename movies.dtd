@@ -2,12 +2,13 @@
 
 <!ELEMENT movies (movie)+>
     <!ATTLIST movies xmlns CDATA #FIXED 'http://suliborski.com/'>
-    <!ELEMENT movie (title,image-URL,release-date-USA,country,director,
+    <!ELEMENT movie (title,image-URL,release-date-USA,year,country,director,
             producers,cast,duration,distributed-by,
-            original-language,music,budget,box-office)>
+            original-language,music,box-office)>
         <!ELEMENT title (#PCDATA)>
         <!ELEMENT image-URL (#PCDATA)>
         <!ELEMENT release-date-USA (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
         <!ELEMENT country (#PCDATA)>
         <!ELEMENT director (#PCDATA)>
         <!ELEMENT producers (producer)*>
@@ -19,5 +20,4 @@
         <!ELEMENT original-language (#PCDATA)>
         <!ELEMENT music (author)?>
             <!ELEMENT author (#PCDATA)>
-        <!ELEMENT budget (#PCDATA)>
         <!ELEMENT box-office (#PCDATA)>

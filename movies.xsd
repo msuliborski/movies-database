@@ -12,6 +12,7 @@
                             <xs:element type="xs:string" name="title"/>
                             <xs:element type="xs:string" name="image-URL"/>
                             <xs:element type="xs:string" name="release-date-USA"/>
+                            <xs:element type="xs:string" name="year"/>
                             <xs:element type="xs:string" name="country"/>
                             <xs:element type="xs:string" name="director"/>
                             <xs:element name="producers">
@@ -38,7 +39,6 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element type="xs:string" name="budget"/>
                             <xs:element type="xs:string" name="box-office"/>
                         </xs:sequence>
                     </xs:complexType>

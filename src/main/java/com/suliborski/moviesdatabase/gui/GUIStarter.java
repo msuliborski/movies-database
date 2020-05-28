@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.net.URL;
 
-public class MainApp extends Application {
+public class GUIStarter extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -16,9 +16,9 @@ public class MainApp extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(location);
         Parent parent = fxmlLoader.load();
         Scene scene = new Scene(parent/*, 600, 100*/);
-        stage.setTitle("Airport");
+        stage.setTitle("Movies Database");
         stage.setScene(scene);
-        Screen controller = fxmlLoader.getController();
+        MainWindow controller = fxmlLoader.getController();
         controller.setStage(stage);
         stage.show();
     }

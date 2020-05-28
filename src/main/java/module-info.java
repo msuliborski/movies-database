@@ -1,4 +1,4 @@
-open module moviesdatabase {
+open module movies.database {
     requires javafx.controls;
     requires javafx.graphics;
     requires javafx.fxml;

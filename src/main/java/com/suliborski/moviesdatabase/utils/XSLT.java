@@ -159,4 +159,19 @@ public class XSLT {
     }
 
 
+    public static String XSLTExercise1(){
+        XSLT.createNewHtml("movies.xml", "movies-to-image-urls-html.xsl", "movies-image-urls.html");
+        return Mapper.fileToString("movies-image-urls.html");
+    }
+
+    public static String XSLTExercise2(){
+        XSLT.createNewXml("movies.xml", "movies-to-directors-movies-xml.xsl", "movies-directors-movies.xml");
+        return Mapper.fileToString("movies-directors-movies.xml");
+    }
+
+    public static String XSLTExercise3(){
+        XSLT.createNewTxt("movies.xml", "movies-to-movies-of-country-txt.xsl", "movies-of-country.txt");
+        return Mapper.fileToString("movies-of-country.txt");
+    }
+
 }

@@ -9,11 +9,15 @@ import org.jdom2.output.XMLOutputter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 import static org.apache.commons.text.StringEscapeUtils.unescapeHtml4;
 
@@ -127,30 +131,32 @@ public class Mapper {
     public static Movie elementToMovie(Element movieElement) {
         Movie movie = new Movie();
 
-        movie.setTitle(movieElement.getChild("title").getText());
-        movie.setImageURL(movieElement.getChild("image-URL").getText());
-        movie.setReleaseDateUSA(movieElement.getChild("release-date-USA").getText());
-        movie.setReleaseDateUSA(movieElement.getChild("year").getText());
-        movie.setCountry(movieElement.getChild("country").getText());
-        movie.setDirector(movieElement.getChild("director").getText());
 
-        Element producersElement = movieElement.getChild("producers");
+
+        movie.setTitle(movieElement.getChild("title", movieElement.getNamespace()).getText());
+        movie.setImageURL(movieElement.getChild("image-URL", movieElement.getNamespace()).getText());
+        movie.setReleaseDateUSA(movieElement.getChild("release-date-USA", movieElement.getNamespace()).getText());
+        movie.setReleaseDateUSA(movieElement.getChild("year", movieElement.getNamespace()).getText());
+        movie.setCountry(movieElement.getChild("country", movieElement.getNamespace()).getText());
+        movie.setDirector(movieElement.getChild("director", movieElement.getNamespace()).getText());
+
+        Element producersElement = movieElement.getChild("producers", movieElement.getNamespace());
         for (Element producerElement : producersElement.getChildren())
             movie.getProducers().add(producerElement.getValue());
 
-        Element castElement = movieElement.getChild("cast");
+        Element castElement = movieElement.getChild("cast", movieElement.getNamespace());
         for (Element actorElement : castElement.getChildren())
             movie.getCast().add(actorElement.getValue());
 
-        movie.setDuration(Integer.parseInt(movieElement.getChild("duration").getText()));
-        movie.setDistributedBy(movieElement.getChild("distributed-by").getText());
-        movie.setOriginalLanguage(movieElement.getChild("original-language").getText());
+        movie.setDuration(Integer.parseInt(movieElement.getChild("duration", movieElement.getNamespace()).getText()));
+        movie.setDistributedBy(movieElement.getChild("distributed-by", movieElement.getNamespace()).getText());
+        movie.setOriginalLanguage(movieElement.getChild("original-language", movieElement.getNamespace()).getText());
 
-        Element musicElement = movieElement.getChild("music");
+        Element musicElement = movieElement.getChild("music", movieElement.getNamespace());
         for (Element musicianElement : musicElement.getChildren())
             movie.getMusicAuthors().add(musicianElement.getValue());
 
-        movie.setBoxOfficeInMillionDollar(Float.parseFloat(movieElement.getChild("box-office").getText()));
+        movie.setBoxOfficeInMillionDollar(Float.parseFloat(movieElement.getChild("box-office", movieElement.getNamespace()).getText()));
 
         return movie;
     }
@@ -200,7 +206,7 @@ public class Mapper {
 
     public static void moviesToNewXMLFile(List<Movie> movies, String fileName) {
         Document document = new Document();
-        Element rootElement = new Element("movies", Namespace.NO_NAMESPACE); //Namespace.getNamespace("s", "http://suliborski.com/"));
+        Element rootElement = new Element("movies", Namespace.getNamespace("http://suliborski.com/"));
 //        document.setDocType(new DocType(rootElement.getName(), fileName.substring(0, fileName.lastIndexOf('.')) + ".dtd"));
         document.setRootElement(rootElement);
 
@@ -228,6 +234,14 @@ public class Mapper {
             return null;
     }
 
+
+    public static void addNewMovieToXMLFile(String title, String fileName) {
+        String wikiSourceCode = HttpRequest.httpRequest("https://en.wikipedia.org/wiki/", title, "output.txt");
+        Movie movie = Mapper.stringToMovie(wikiSourceCode);
+
+        addMovieToXMLFile(movie, fileName);
+    }
+
     public static void addMovieToXMLFile(Movie movie, String fileName) {
         File file = new File(fileName);
         if (file.exists() && !file.isDirectory()) {
@@ -241,14 +255,68 @@ public class Mapper {
 
     public static void deleteMovieFromXMLFile(String title, String fileName) {
         Element rootElement = getRootElementFromXMLFile(fileName);
-        Element movieToDelete = null;
-        List<Element> movieElements = rootElement.getChildren("movie");
 
-        for (Element movieElement : movieElements)
-            if (movieElement.getChild("title").getText().equals(title)){
-                movieToDelete = movieElement;
+        if (rootElement == null) System.out.println("chujek jest nullem");
+        Element movieToDelete = null;
+        List<Element> movieElements = rootElement.getChildren();
+
+        if (movieElements != null) System.out.println(movieElements.size());
+        for (Element movieElement : movieElements){
+            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)){
+                movieToDelete = movieElement; break;
             }
+        }
         rootElement.removeContent(movieToDelete);
+        saveRootElementInXMLFile(rootElement, fileName);
+    }
+    public static void editYearInXMLFile(String title, String fileName, int newYear) {
+        Element rootElement = getRootElementFromXMLFile(fileName);
+        Element movieElement = null;
+
+        List<Element> movieElements = rootElement.getChildren();
+
+        for (Element e : movieElements)
+            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                movieElement = e;
+                break;
+            }
+
+        movieElement.getChild("year", rootElement.getNamespace()).setText(String.valueOf(newYear));
+
+        saveRootElementInXMLFile(rootElement, fileName);
+    }
+
+    public static void editDirectorInXMLFile(String title, String fileName, String newDirector) {
+        Element rootElement = getRootElementFromXMLFile(fileName);
+        Element movieElement = null;
+
+        List<Element> movieElements = rootElement.getChildren();
+
+        for (Element e : movieElements)
+            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                movieElement = e;
+                break;
+            }
+
+        movieElement.getChild("director", rootElement.getNamespace()).setText(newDirector);
+
+        saveRootElementInXMLFile(rootElement, fileName);
+    }
+    public static void editCountryInXMLFile(String title, String fileName, String newCountry) {
+
+        Element rootElement = getRootElementFromXMLFile(fileName);
+        Element movieElement = null;
+
+        List<Element> movieElements = rootElement.getChildren();
+
+        for (Element e : movieElements)
+            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                movieElement = e;
+                break;
+            }
+
+        movieElement.getChild("country", rootElement.getNamespace()).setText(newCountry);
+
         saveRootElementInXMLFile(rootElement, fileName);
     }
 
@@ -258,45 +326,54 @@ public class Mapper {
         Element rootElement = getRootElementFromXMLFile(fileName);
         Element movieElement = null;
 
-        List<Element> movieElements = rootElement.getChildren("movie");
+        List<Element> movieElements = rootElement.getChildren();
 
         for (Element e : movieElements)
-            if (e.getChild("title").getText().equals(title)) {
+            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
                 movieElement = e;
             }
 
-        movieElement.getChild("title").setText(movie.getTitle());
-        movieElement.getChild("image-URL").setText(movie.getImageURL());
-        movieElement.getChild("release-date-USA").setText(movie.getReleaseDateUSA());
-        movieElement.getChild("year").setText(String.valueOf(movie.getYear()));
-        movieElement.getChild("country").setText(movie.getCountry());
-        movieElement.getChild("director").setText(movie.getDirector());
+        movieElement.getChild("title", rootElement.getNamespace()).setText(movie.getTitle());
+        movieElement.getChild("image-URL", rootElement.getNamespace()).setText(movie.getImageURL());
+        movieElement.getChild("release-date-USA", rootElement.getNamespace()).setText(movie.getReleaseDateUSA());
+        movieElement.getChild("year", rootElement.getNamespace()).setText(String.valueOf(movie.getYear()));
+        movieElement.getChild("country", rootElement.getNamespace()).setText(movie.getCountry());
+        movieElement.getChild("director", rootElement.getNamespace()).setText(movie.getDirector());
 
         Element producersElement = new Element("producers", rootElement.getNamespace());
         for (String producer : movie.getProducers())
-            producersElement.getChild("producer").setText(producer);
-        movieElement.removeContent(movieElement.getChild("producers"));
+            producersElement.getChild("producer", rootElement.getNamespace()).setText(producer);
+        movieElement.removeContent(movieElement.getChild("producers", rootElement.getNamespace()));
         movieElement.addContent(producersElement);
 
         Element castElement = new Element("cast", rootElement.getNamespace());
         for (String actor : movie.getCast())
-            castElement.getChild("actor").setText(actor);
-        movieElement.removeContent(movieElement.getChild("cast"));
+            castElement.getChild("actor", rootElement.getNamespace()).setText(actor);
+        movieElement.removeContent(movieElement.getChild("cast", rootElement.getNamespace()));
         movieElement.addContent(castElement);
 
-        movieElement.getChild("duration").setText(String.valueOf(movie.getDuration()));
-        movieElement.getChild("distributed-by").setText(movie.getDistributedBy());
-        movieElement.getChild("original-language").setText(movie.getOriginalLanguage());
+        movieElement.getChild("duration", rootElement.getNamespace()).setText(String.valueOf(movie.getDuration()));
+        movieElement.getChild("distributed-by", rootElement.getNamespace()).setText(movie.getDistributedBy());
+        movieElement.getChild("original-language", rootElement.getNamespace()).setText(movie.getOriginalLanguage());
 
         Element musiciansElement = new Element("music", rootElement.getNamespace());
         for (String musician : movie.getMusicAuthors())
-            musiciansElement.getChild("author").setText(musician);
-        movieElement.removeContent(movieElement.getChild("music"));
+            musiciansElement.getChild("author", rootElement.getNamespace()).setText(musician);
+        movieElement.removeContent(movieElement.getChild("music", rootElement.getNamespace()));
         movieElement.addContent(musiciansElement);
 
-        movieElement.getChild("box-office").setText(String.valueOf(movie.getBoxOfficeInMillionDollar()));
+        movieElement.getChild("box-office", rootElement.getNamespace()).setText(String.valueOf(movie.getBoxOfficeInMillionDollar()));
 
         saveRootElementInXMLFile(rootElement, fileName);
+    }
+    public static String fileToString(String fileName){
+        StringBuilder contentBuilder = new StringBuilder();
+        try (Stream<String> stream = Files.lines( Paths.get(fileName), StandardCharsets.UTF_8)) {
+            stream.forEach(s -> contentBuilder.append(s).append("\n"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return contentBuilder.toString();
     }
 }
 
