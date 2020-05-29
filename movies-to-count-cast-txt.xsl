@@ -1,12 +1,12 @@
 <xsl:stylesheet version="1.0"
 				xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="text" indent="no"/>
+	<xsl:output method="text" indent="yes"/>
 	<xsl:template match="/">
-Movies from United States:
+Movies with cast count:
 		<xsl:for-each select="/movies/movie">
-			<xsl:if test="country='United States'">
-- <xsl:value-of select="title"/>
-			</xsl:if>
+- <xsl:value-of select="title"/> (<xsl:for-each select="cast">
+					<xsl:value-of select="count(actor)"/>
+				</xsl:for-each>)
 		</xsl:for-each>
 	</xsl:template>
 </xsl:stylesheet>
