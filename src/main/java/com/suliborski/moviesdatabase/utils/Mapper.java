@@ -27,9 +27,6 @@ public class Mapper {
         skip, title, imageURL, releaseDateUSA, country, director, cast, duration, distributedBy, originalLanguage, musicAuthors, boxOffice, producers
     }
 
-    //TODO
-    //correct numbers
-    //fix dates
     public static Movie stringToMovie(String sourceCode) {
         Mode mode = Mode.title;
         Movie movie = new Movie();
@@ -56,12 +53,12 @@ public class Mapper {
                 matcher = Pattern.compile("<table .*?<img alt=\".*?\" src=\"(.*?)\"").matcher(line);
                 if (matcher.find()) {
                     movie.setImageURL(matcher.group(1));
-                    mode = Mode.director;
+                    mode = Mode.skip;
                 }
             }
 
 
-            matcher = Pattern.compile("(?<![a-z]=)[\"|>]([ a-zA-Z0-9$&#;.,]+?)[\"|<]").matcher(line);
+            matcher = Pattern.compile("(?<![a-z]=)[\"|>]([ A-Za-z\\p{L}0-9$&#;,-.]+?)[\"|<]").matcher(line);
             while (matcher.find()) {
                 wikiTable.append(matcher.group(1)).append("=");
             }
@@ -71,41 +68,75 @@ public class Mapper {
 
         for (String cell : wikiTableData) {
             cell = unescapeHtml4(cell);
-            if (cell.equals("Directed by")) { mode = Mode.director; continue;}
-            else if (cell.equals("Release date")) { mode = Mode.releaseDateUSA; continue;}
-            else if (cell.equals("Country")) { mode = Mode.country; continue;}
-            else if (cell.equals("Produced by")) { mode = Mode.producers; continue;}
-            else if (cell.equals("Starring")) { mode = Mode.cast; continue;}
-            else if (cell.equals("Running time")) { mode = Mode.duration; continue;}
-            else if (cell.equals("Distributed by")) { mode = Mode.distributedBy; continue;}
-            else if (cell.equals("Language")) { mode = Mode.originalLanguage; continue;}
-            else if (cell.equals("Music by")) { mode = Mode.musicAuthors; continue;}
-            else if (cell.equals("Box office")) { mode = Mode.boxOffice; continue;}
-            else if (cell.equals("Budget")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Screenplay by")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Story by")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Edited by")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Written by")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Production")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Cinematography")) { mode = Mode.skip; continue;}
-            else if (cell.equals("Based on")) { mode = Mode.skip; continue;}
-            else if (cell.equals("company")) { mode = Mode.skip; continue;}
+            if (cell.equals("Directed by")) {
+                mode = Mode.director; continue;
+            } else if (cell.equals("Release date")) {
+                mode = Mode.releaseDateUSA; continue;
+            } else if (cell.equals("Country")) {
+                mode = Mode.country; continue;
+            } else if (cell.equals("Produced by")) {
+                mode = Mode.producers; continue;
+            } else if (cell.equals("Starring")) {
+                mode = Mode.cast; continue;
+            } else if (cell.equals("Running time")) {
+                mode = Mode.duration; continue;
+            } else if (cell.equals("Distributed by")) {
+                mode = Mode.distributedBy; continue;
+            } else if (cell.equals("Language")) {
+                mode = Mode.originalLanguage;  continue;
+            } else if (cell.equals("Music by")) {
+                mode = Mode.musicAuthors; continue;
+            } else if (cell.equals("Box office")) {
+                mode = Mode.boxOffice; continue;
+            } else if (cell.equals("Budget")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Screenplay by")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Story by")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Edited by")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Written by")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Production")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Cinematography")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("Based on")) {
+                mode = Mode.skip; continue;
+            } else if (cell.equals("company")) {
+                mode = Mode.skip; continue;
+            }
 
-            if (mode == Mode.director) { movie.setDirector(cell); mode = Mode.skip; }
-            else if (mode == Mode.releaseDateUSA) { movie.setReleaseDateUSA(cell); movie.setYear(Integer.parseInt(cell.substring(cell.length() - 4)));mode = Mode.skip; }
-            else if (mode == Mode.country) { movie.setCountry(cell); mode = Mode.skip; }
-            else if (mode == Mode.producers) movie.getProducers().add(cell);
+            if (mode == Mode.director) {
+                movie.setDirector(cell);
+                mode = Mode.skip;
+            } else if (mode == Mode.releaseDateUSA) {
+                movie.setReleaseDateUSA(cell);
+                movie.setYear(Integer.parseInt(cell.substring(cell.length() - 4)));
+                mode = Mode.skip;
+            } else if (mode == Mode.country) {
+                movie.setCountry(cell);
+                mode = Mode.skip;
+            } else if (mode == Mode.producers) movie.getProducers().add(cell);
             else if (mode == Mode.cast) movie.getCast().add(cell);
             else if (mode == Mode.duration) {
-                if (cell.contains("billion")) movie.setDuration(Integer.parseInt(getNumber(cell)) * 1000);
-                else if (cell.contains("million")) movie.setDuration(Integer.parseInt(getNumber(cell)));
-                else movie.setDuration(Integer.parseInt(getNumber(cell)));
+                movie.setDuration(Integer.parseInt(getNumber(cell)));
                 mode = Mode.skip;
+            } else if (mode == Mode.distributedBy) {
+                movie.setDistributedBy(cell);
+                mode = Mode.skip;
+            } else if (mode == Mode.originalLanguage) {
+                movie.setOriginalLanguage(cell);
+                mode = Mode.skip;
+            } else if (mode == Mode.musicAuthors) movie.getMusicAuthors().add(cell);
+            else if (mode == Mode.boxOffice) {
+                if (cell.contains("billion"))
+                    movie.setBoxOfficeInMillionDollar(Float.parseFloat(getNumber(cell)) * 1000);
+                else if (cell.contains("million")) movie.setBoxOfficeInMillionDollar(Float.parseFloat(getNumber(cell)));
+                else movie.setBoxOfficeInMillionDollar(Float.parseFloat(getNumber(cell)) / 1000);
+                break;
             }
-            else if (mode == Mode.distributedBy) { movie.setDistributedBy(cell); mode = Mode.skip; }
-            else if (mode == Mode.originalLanguage) { movie.setOriginalLanguage(cell); mode = Mode.skip; }
-            else if (mode == Mode.musicAuthors) movie.getMusicAuthors().add(cell);
-            else if (mode == Mode.boxOffice) { movie.setBoxOfficeInMillionDollar(Float.parseFloat(getNumber(cell))); break; }
         }
         scanner.close();
         return movie;
@@ -124,13 +155,13 @@ public class Mapper {
 
             Document document = builder.build(xmlFile);
             return document.getRootElement().detach();
-        } catch (JDOMException | IOException ignore) { }
+        } catch (JDOMException | IOException ignore) {
+        }
         return null;
     }
 
     public static Movie elementToMovie(Element movieElement) {
         Movie movie = new Movie();
-
 
 
         movie.setTitle(movieElement.getChild("title", movieElement.getNamespace()).getText());
@@ -201,45 +232,64 @@ public class Mapper {
         XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
         try {
             xmlOutputter.output(document, new FileOutputStream(fileName));
-        } catch (IOException ignore) { }
+        } catch (IOException ignore) {
+        }
     }
 
     public static void moviesToNewXMLFile(List<Movie> movies, String fileName) {
         Document document = new Document();
-        Element rootElement = new Element("movies", Namespace.getNamespace("http://suliborski.com/"));
-//        document.setDocType(new DocType(rootElement.getName(), fileName.substring(0, fileName.lastIndexOf('.')) + ".dtd"));
+        Element rootElement = new Element("movies", Namespace.NO_NAMESPACE); //Namespace.getNamespace("http://suliborski.com/"));
+        Namespace namespace = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
+        rootElement.addNamespaceDeclaration(namespace);
+        rootElement.setAttribute(new Attribute("noNamespaceSchemaLocation", "movies.xsd", Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance")));
+        document.setDocType(new DocType(rootElement.getName(), fileName.substring(0, fileName.lastIndexOf('.')) + ".dtd"));
         document.setRootElement(rootElement);
 
-        for(Movie movie : movies)
+        for (Movie movie : movies)
             document.getRootElement().addContent(movieToElement(movie, rootElement.getNamespace()));
 
         XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
         try {
             xmlOutputter.output(document, new FileOutputStream(fileName));
-        } catch (IOException ignore) { }
+        } catch (IOException ignore) {
+        }
 
     }
 
     public static Movie getMovieFromXMLFile(String title, String fileName) {
 
-            Element rootElement = getRootElementFromXMLFile(fileName);
+        Element rootElement = getRootElementFromXMLFile(fileName);
 
-            List<Element> movieElements = rootElement.getChildren("movie");
+        List<Element> movieElements = rootElement.getChildren("movie");
 
-            for (Element movieElement : movieElements)
-                if (movieElement.getChild("title").getText().equals(title)) {
-                    return elementToMovie(movieElement);
-                }
+        for (Element movieElement : movieElements)
+            if (movieElement.getChild("title").getText().equals(title)) {
+                return elementToMovie(movieElement);
+            }
 
-            return null;
+        return null;
+    }
+
+    public static Element getMovieElementByTitle(String title, String fileName){
+        Element rootElement = getRootElementFromXMLFile(fileName);
+
+        List<Element> movieElements = rootElement.getChildren();
+        for (Element movieElement : movieElements)
+            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                return movieElement;
+            }
+         return null;
     }
 
 
     public static void addNewMovieToXMLFile(String title, String fileName) {
-        String wikiSourceCode = HttpRequest.httpRequest("https://en.wikipedia.org/wiki/", title, "output.txt");
-        Movie movie = Mapper.stringToMovie(wikiSourceCode);
+        if (getMovieElementByTitle(title, fileName) == null) {
 
-        addMovieToXMLFile(movie, fileName);
+            String wikiSourceCode = HttpRequest.httpRequest("https://en.wikipedia.org/wiki/", title, "output.txt");
+            Movie movie = Mapper.stringToMovie(wikiSourceCode);
+
+            addMovieToXMLFile(movie, fileName);
+        }
     }
 
     public static void addMovieToXMLFile(Movie movie, String fileName) {
@@ -261,62 +311,46 @@ public class Mapper {
         List<Element> movieElements = rootElement.getChildren();
 
         if (movieElements != null) System.out.println(movieElements.size());
-        for (Element movieElement : movieElements){
-            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)){
-                movieToDelete = movieElement; break;
+        for (Element movieElement : movieElements) {
+            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                movieToDelete = movieElement;
+                break;
             }
         }
         rootElement.removeContent(movieToDelete);
         saveRootElementInXMLFile(rootElement, fileName);
     }
+
     public static void editYearInXMLFile(String title, String fileName, int newYear) {
         Element rootElement = getRootElementFromXMLFile(fileName);
-        Element movieElement = null;
 
-        List<Element> movieElements = rootElement.getChildren();
-
-        for (Element e : movieElements)
-            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
-                movieElement = e;
+        for (Element movieElement : rootElement.getChildren())
+            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                rootElement.getChild("movie", rootElement.getNamespace()).getChild("year", rootElement.getNamespace()).setText(String.valueOf(newYear));
                 break;
             }
-
-        movieElement.getChild("year", rootElement.getNamespace()).setText(String.valueOf(newYear));
-
         saveRootElementInXMLFile(rootElement, fileName);
     }
 
     public static void editDirectorInXMLFile(String title, String fileName, String newDirector) {
         Element rootElement = getRootElementFromXMLFile(fileName);
-        Element movieElement = null;
 
-        List<Element> movieElements = rootElement.getChildren();
-
-        for (Element e : movieElements)
-            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
-                movieElement = e;
+        for (Element movieElement : rootElement.getChildren())
+            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                rootElement.getChild("movie", rootElement.getNamespace()).getChild("director", rootElement.getNamespace()).setText(newDirector);
                 break;
             }
-
-        movieElement.getChild("director", rootElement.getNamespace()).setText(newDirector);
-
         saveRootElementInXMLFile(rootElement, fileName);
     }
+
     public static void editCountryInXMLFile(String title, String fileName, String newCountry) {
-
         Element rootElement = getRootElementFromXMLFile(fileName);
-        Element movieElement = null;
 
-        List<Element> movieElements = rootElement.getChildren();
-
-        for (Element e : movieElements)
-            if (e.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
-                movieElement = e;
+        for (Element movieElement : rootElement.getChildren())
+            if (movieElement.getChild("title", rootElement.getNamespace()).getText().equals(title)) {
+                rootElement.getChild("movie", rootElement.getNamespace()).getChild("country", rootElement.getNamespace()).setText(newCountry);
                 break;
             }
-
-        movieElement.getChild("country", rootElement.getNamespace()).setText(newCountry);
-
         saveRootElementInXMLFile(rootElement, fileName);
     }
 
@@ -366,14 +400,54 @@ public class Mapper {
 
         saveRootElementInXMLFile(rootElement, fileName);
     }
-    public static String fileToString(String fileName){
+
+    public static String fileToString(String fileName) {
         StringBuilder contentBuilder = new StringBuilder();
-        try (Stream<String> stream = Files.lines( Paths.get(fileName), StandardCharsets.UTF_8)) {
+        try (Stream<String> stream = Files.lines(Paths.get(fileName), StandardCharsets.UTF_8)) {
             stream.forEach(s -> contentBuilder.append(s).append("\n"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         return contentBuilder.toString();
+    }
+
+    public static void generateSampleXML() {
+        List<String> movieStrings = new ArrayList<>();
+        List<Movie> movies = new ArrayList<>();
+
+        movieStrings.add("Toy Story");
+        movieStrings.add("Dr. Dolittle (1998 film)");
+        movieStrings.add("Pulp Fiction");
+        movieStrings.add("Thelma & Louise");
+        movieStrings.add("Blade Runner");
+        movieStrings.add("Prometheus (2012 film)");
+        movieStrings.add("Back to the Future");
+        movieStrings.add("Good Will Hunting");
+        movieStrings.add("The Talented Mr. Ripley (film)");
+        movieStrings.add("The Accidental Tourist");
+        movieStrings.add("Match Point");
+        movieStrings.add("Vicky Cristina Barcelona");
+        movieStrings.add("Larry Crowne");
+        movieStrings.add("Annie Hall");
+        movieStrings.add("The Village (2004 film)");
+        movieStrings.add("Quills");
+        movieStrings.add("Walk the Line");
+        movieStrings.add("Pretty Woman");
+        movieStrings.add("Ocean's Eleven");
+        movieStrings.add("Avengers: Endgame");
+        movieStrings.add("Schindler's List");
+        movieStrings.add("A Quiet Place (film)");
+        movieStrings.add("Ida (film)");
+        movieStrings.add("Wild Tales (film)");
+
+        String link = "https://en.wikipedia.org/wiki/";
+
+        for (String movieString : movieStrings) {
+            String wikiSourceCode = HttpRequest.httpRequest(link, movieString, "output.txt");
+            movies.add(Mapper.stringToMovie(wikiSourceCode));
+        }
+
+        Mapper.moviesToNewXMLFile(movies, "movies.xml");
     }
 }
 

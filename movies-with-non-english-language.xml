@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+   <movie>
+      <title>A Quiet Place</title>
+      <year>2018</year>
+      <country>United States</country>
+      <director>John Krasinski</director>
+      <original-language>American Sign Language</original-language>
+   </movie>
+   <movie>
+      <title>Ida</title>
+      <year>2013</year>
+      <country>Poland</country>
+      <director>Paweł Pawlikowski</director>
+      <original-language>Polish</original-language>
+   </movie>
+   <movie>
+      <title>Wild Tales</title>
+      <year>2014</year>
+      <country>Argentina</country>
+      <director>Damián Szifron</director>
+      <original-language>Spanish</original-language>
+   </movie>
+</movies>

@@ -1,6 +1,5 @@
 package com.suliborski.moviesdatabase.gui;
 
-import com.suliborski.moviesdatabase.data.Movie;
 import com.suliborski.moviesdatabase.utils.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -10,7 +9,6 @@ import javafx.stage.Stage;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.ResourceBundle;
 
 public class MainWindow implements Initializable {
@@ -20,6 +18,7 @@ public class MainWindow implements Initializable {
     public Button showXMLFileButton;
     public Button showDTDButton;
     public Button showXSDButton;
+    public Button generateSampleXMLButton;
 
     public Button addMovieButton;
     public Button deleteMovieButton;
@@ -42,6 +41,12 @@ public class MainWindow implements Initializable {
     public Button xsltButton4;
     public Button xsltButton5;
     public Button xsltButton6;
+    public Button xslFileButton1;
+    public Button xslFileButton2;
+    public Button xslFileButton3;
+    public Button xslFileButton4;
+    public Button xslFileButton5;
+    public Button xslFileButton6;
 
     public TextArea xmlFileContent;
 
@@ -86,47 +91,8 @@ public class MainWindow implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-//        getSampleMoviesToXML();
-
+//        Mapper.generateSampleXML();
         showXMLFile();
-    }
-
-    private void getSampleMoviesToXML(){
-        List<String> movieStrings = new ArrayList<>();
-        List<Movie> movies = new ArrayList<>();
-
-        movieStrings.add("Toy Story");
-        movieStrings.add("Dr. Dolittle (1998 film)");
-        movieStrings.add("Pulp Fiction");
-        movieStrings.add("Thelma & Louise");
-        movieStrings.add("Blade Runner");
-        movieStrings.add("Prometheus (2012 film)");
-        movieStrings.add("Back to the Future");
-        movieStrings.add("Good Will Hunting");
-        movieStrings.add("The Talented Mr. Ripley (film)");
-        movieStrings.add("The Accidental Tourist");
-        movieStrings.add("Match Point");
-        movieStrings.add("Vicky Cristina Barcelona");
-        movieStrings.add("Larry Crowne");
-        movieStrings.add("Annie Hall");
-        movieStrings.add("The Village (2004 film)");
-        movieStrings.add("Quills");
-        movieStrings.add("Walk the Line");
-        movieStrings.add("Pretty Woman");
-        movieStrings.add("Ocean's Eleven");
-        movieStrings.add("Avengers: Endgame");
-        movieStrings.add("Schindler's List");
-        movieStrings.add("A Quiet Place (film)");
-
-        String link = "https://en.wikipedia.org/wiki/";
-
-        for (String movieString : movieStrings) {
-            String wikiSourceCode = HttpRequest.httpRequest(link, movieString, "output.txt");
-            movies.add(Mapper.stringToMovie(wikiSourceCode));
-        }
-
-        Mapper.moviesToNewXMLFile(movies, "movies.xml");
-
     }
 
 
@@ -138,6 +104,7 @@ public class MainWindow implements Initializable {
         else
             validateDTDButton.setStyle("-fx-text-fill: #FF0000");
     }
+
     @FXML
     void validateXSD(){
         if (Validator.validateWithXSD("movies.xml"))
@@ -146,11 +113,14 @@ public class MainWindow implements Initializable {
             validateXSDButton.setStyle("-fx-text-fill: #FF0000");
     }
 
-
+    @FXML
+    void generateSampleXML(){
+        Mapper.generateSampleXML();
+        showXMLFile();
+    }
 
     @FXML
     void showXMLFile(){
-//        xmlFileContent.setText(XSLT.readDocumentToString(XSLT.readDocumentXML("movies.xml")));
         xmlFileContent.setText(Mapper.fileToString("movies.xml"));
     }
 
@@ -247,5 +217,41 @@ public class MainWindow implements Initializable {
     void executeXSLT3(){
         xmlFileContent.setText(XSLT.XSLTExercise3());
     }
+    @FXML
+    void executeXSLT4(){
+        xmlFileContent.setText(XSLT.XSLTExercise4());
+    }
+    @FXML
+    void executeXSLT5(){
+        xmlFileContent.setText(XSLT.XSLTExercise5());
+    }
+    @FXML
+    void executeXSLT6(){
+        xmlFileContent.setText(XSLT.XSLTExercise6());
+    }
 
+    @FXML
+    void showXSLFile1(){
+        xmlFileContent.setText(Mapper.fileToString("movies-to-image-urls-html.xsl"));
+    }
+    @FXML
+    void showXSLFile2(){
+        xmlFileContent.setText(Mapper.fileToString("movies-to-directors-movies-xml.xsl"));
+    }
+    @FXML
+    void showXSLFile3(){
+        xmlFileContent.setText(Mapper.fileToString("movies-to-movies-of-country-txt.xsl"));
+    }
+    @FXML
+    void showXSLFile4(){
+        xmlFileContent.setText(Mapper.fileToString("movies-to-year-txt.xsl"));
+    }
+    @FXML
+    void showXSLFile5(){
+        xmlFileContent.setText(Mapper.fileToString("movies-to-count-cast-txt.xsl"));
+    }
+    @FXML
+    void showXSLFile6(){
+        xmlFileContent.setText(Mapper.fileToString("movies-to-non-english-movies-xml.xsl"));
+    }
 }

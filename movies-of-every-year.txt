@@ -1,0 +1,49 @@
+
+Movies sorted by year:
+		
+- Toy Story (1111111)
+			
+- Annie Hall (1979)
+			
+- Blade Runner (1982)
+			
+- Back to the Future (1985)
+			
+- Pretty Woman (1990)
+			
+- Thelma & Louise (1991)
+			
+- Schindler's List (1993)
+			
+- Pulp Fiction (1994)
+			
+- Good Will Hunting (1997)
+			
+- Dr. Dolittle (1998)
+			
+- The Talented Mr. Ripley (1999)
+			
+- Quills (2000)
+			
+- Ocean's Eleven (2001)
+			
+- The Village (2004)
+			
+- Match Point (2005)
+			
+- Walk the Line (2005)
+			
+- Vicky Cristina Barcelona (2008)
+			
+- Larry Crowne (2011)
+			
+- Prometheus (2012)
+			
+- Ida (2013)
+			
+- Wild Tales (2014)
+			
+- A Quiet Place (2018)
+			
+- Avengers: Endgame (2019)
+			

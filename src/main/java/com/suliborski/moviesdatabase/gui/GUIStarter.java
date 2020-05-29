@@ -12,7 +12,7 @@ public class GUIStarter extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        URL location = getClass().getResource("/com/suliborski/moviesdatabase/MainView.fxml"); ///src/main/resources/com/almasb/test/
+        URL location = getClass().getResource("/com/suliborski/moviesdatabase/MainView.fxml");
         FXMLLoader fxmlLoader = new FXMLLoader(location);
         Parent parent = fxmlLoader.load();
         Scene scene = new Scene(parent/*, 600, 100*/);

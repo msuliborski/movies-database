@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suliborski.moviesdatabase.gui.MainWindow">
+<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suliborski.moviesdatabase.gui.MainWindow">
     <children>
         <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
             <children>
@@ -29,7 +29,7 @@
                 <Button fx:id="editYearButton" layoutX="721.0" layoutY="175.0" mnemonicParsing="false" onAction="#editYear" prefHeight="17.0" prefWidth="150.0" text="Edit movie's year" />
                 <Button fx:id="editDirectorButton" layoutX="721.0" layoutY="206.0" mnemonicParsing="false" onAction="#editDirector" prefHeight="17.0" prefWidth="150.0" text="Edit movie's director" />
                 <Button fx:id="editCountryButton" layoutX="721.0" layoutY="239.0" mnemonicParsing="false" onAction="#editCountry" prefHeight="17.0" prefWidth="150.0" text="Edit movie's country" />
-                <TextField fx:id="addMovieF1" layoutX="883.0" layoutY="111.0" promptText="Title" />
+                <TextField fx:id="addMovieF1" layoutX="883.0" layoutY="111.0" promptText="Title (exactly like in Wiki)" />
                 <TextField fx:id="deleteMovieF1" layoutX="883.0" layoutY="144.0" promptText="Title" />
                 <TextField fx:id="editYearF1" layoutX="883.0" layoutY="175.0" promptText="Title" />
                 <TextField fx:id="editYearF2" layoutX="1042.0" layoutY="175.0" promptText="New year" />
@@ -63,12 +63,18 @@
 
                 <Text id="xmlText3" layoutX="722.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate XSLT outputs" />
                 <Button layoutX="721.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT1" prefHeight="25.0" prefWidth="110.0" text="XSLT #1" fx:id="xsltButton1" />
-                <Button layoutX="883.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT2" prefHeight="25.0" prefWidth="150.0" text="XSLT #2" fx:id="xsltButton2" />
-                <Button layoutX="1042.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT3" prefHeight="25.0" prefWidth="150.0" text="XSLT #3" fx:id="xsltButton3" />
-                <Button layoutX="722.0" layoutY="622.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="XSLT #4" fx:id="xsltButton4" />
-                <Button layoutX="884.0" layoutY="622.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="XSLT #5" fx:id="xsltButton5" />
-                <Button layoutX="1043.0" layoutY="622.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="XSLT #6" fx:id="xsltButton6" />
-            <Button layoutX="831.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT1" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xsltButton11" />
+                <Button layoutX="883.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT2" prefHeight="25.0" prefWidth="110.0" text="XSLT #2" fx:id="xsltButton2" />
+                <Button layoutX="1042.0" layoutY="589.0" mnemonicParsing="false" onAction="#executeXSLT3" prefHeight="25.0" prefWidth="110.0" text="XSLT #3" fx:id="xsltButton3" />
+                <Button layoutX="722.0" layoutY="622.0" mnemonicParsing="false" onAction="#executeXSLT4" prefHeight="25.0" prefWidth="110.0" text="XSLT #4" fx:id="xsltButton4" />
+                <Button layoutX="884.0" layoutY="622.0" mnemonicParsing="false" onAction="#executeXSLT5" prefHeight="25.0" prefWidth="110.0" text="XSLT #5" fx:id="xsltButton5" />
+                <Button layoutX="1043.0" layoutY="622.0" mnemonicParsing="false" onAction="#executeXSLT6" prefHeight="25.0" prefWidth="110.0" text="XSLT #6" fx:id="xsltButton6" />
+                <Button layoutX="831.0" layoutY="589.0" mnemonicParsing="false" onAction="#showXSLFile1" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xslFileButton1" />
+                <Button layoutX="993.0" layoutY="589.0" mnemonicParsing="false" onAction="#showXSLFile2" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xslFileButton2" />
+                <Button layoutX="1152.0" layoutY="589.0" mnemonicParsing="false" onAction="#showXSLFile3" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xslFileButton3" />
+                <Button layoutX="831.0" layoutY="622.0" mnemonicParsing="false" onAction="#showXSLFile4" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xslFileButton4" />
+                <Button layoutX="993.0" layoutY="622.0" mnemonicParsing="false" onAction="#showXSLFile5" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xslFileButton5" />
+                <Button layoutX="1152.0" layoutY="622.0" mnemonicParsing="false" onAction="#showXSLFile6" prefHeight="25.0" prefWidth="40.0" text=".xsl" fx:id="xslFileButton6" />
+                <Button fx:id="generateSampleXMLButton" layoutX="560.0" layoutY="681.0" mnemonicParsing="false" onAction="#generateSampleXML" text="Generate sample XML File" />
             </children>
         </AnchorPane>
     </children>

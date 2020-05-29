@@ -1,12 +1,11 @@
 <xs:schema
         attributeFormDefault="unqualified"
         elementFormDefault="qualified"
-        targetNamespace="http://suliborski.com/"
         xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="movies">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="movie" maxOccurs="1" minOccurs="1">
+                <xs:element name="movie" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element type="xs:string" name="title"/>
@@ -35,7 +34,7 @@
                             <xs:element name="music">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element type="xs:string" name="author"/>
+                                        <xs:element type="xs:string" name="author" maxOccurs="unbounded" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

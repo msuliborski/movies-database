@@ -1,5 +1,8 @@
 package com.suliborski.moviesdatabase.data;
 
+import com.suliborski.moviesdatabase.utils.HttpRequest;
+import com.suliborski.moviesdatabase.utils.Mapper;
+
 import java.util.ArrayList;
 import java.util.List;
 

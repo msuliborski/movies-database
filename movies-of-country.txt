@@ -1,6 +1,10 @@
 
-Movies in United States:
+Movies from United States:
 		
+- Dr. Dolittle
+- Pulp Fiction
+- Thelma & Louise
+- Blade Runner
 - Back to the Future
 - Good Will Hunting
 - The Talented Mr. Ripley
@@ -10,8 +14,8 @@ Movies in United States:
 - The Village
 - Quills
 - Walk the Line
+- Pretty Woman
 - Ocean's Eleven
 - Avengers: Endgame
 - Schindler's List
-- Titanic
-- Pulp Fiction
+- A Quiet Place

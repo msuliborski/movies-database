@@ -1,0 +1,51 @@
+
+Movies with cast count:
+		
+- Toy Story (9)
+		
+- Dr. Dolittle (3)
+		
+- Pulp Fiction (12)
+		
+- Thelma & Louise (3)
+		
+- Blade Runner (4)
+		
+- Prometheus (6)
+		
+- Back to the Future (4)
+		
+- Good Will Hunting (5)
+		
+- The Talented Mr. Ripley (9)
+		
+- The Accidental Tourist (0)
+		
+- Match Point (6)
+		
+- Vicky Cristina Barcelona (7)
+		
+- Larry Crowne (8)
+		
+- Annie Hall (9)
+		
+- The Village (6)
+		
+- Quills (4)
+		
+- Walk the Line (4)
+		
+- Pretty Woman (2)
+		
+- Ocean's Eleven (5)
+		
+- Avengers: Endgame (16)
+		
+- Schindler's List (6)
+		
+- A Quiet Place (2)
+		
+- Ida (3)
+		
+- Wild Tales (7)
+		

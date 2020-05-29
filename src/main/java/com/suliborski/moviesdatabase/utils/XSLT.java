@@ -173,5 +173,17 @@ public class XSLT {
         XSLT.createNewTxt("movies.xml", "movies-to-movies-of-country-txt.xsl", "movies-of-country.txt");
         return Mapper.fileToString("movies-of-country.txt");
     }
+    public static String XSLTExercise4(){
+        XSLT.createNewTxt("movies.xml", "movies-to-year-txt.xsl", "movies-of-every-year.txt");
+        return Mapper.fileToString("movies-of-every-year.txt");
+    }
+    public static String XSLTExercise5(){
+        XSLT.createNewTxt("movies.xml", "movies-to-count-cast-txt.xsl", "movies-with-cast-count.txt");
+        return Mapper.fileToString("movies-with-cast-count.txt");
+    }
+    public static String XSLTExercise6(){
+        XSLT.createNewTxt("movies.xml", "movies-to-non-english-movies-xml.xsl", "movies-with-non-english-language.xml");
+        return Mapper.fileToString("movies-with-non-english-language.xml");
+    }
 
 }
