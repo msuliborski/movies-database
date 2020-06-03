@@ -16,7 +16,7 @@ public class Main {
         // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         // Prepare XML files with desired movies
         // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-        Mapper.generateSampleXML();
+//        Mapper.generateSampleXML();
 
 
 
@@ -48,23 +48,23 @@ public class Main {
         // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 //        System.out.println(XPathExercise1("Blade Runner")); //ok
 //
-//        XPathExercise2("Ridley Scott"); //ok
+//        System.out.println(XPathExercise2("Ridley Scott")); //ok
 //
 //        List<String> actors = new ArrayList<>();
 //        actors.add("Eddie Murphy");
 //        actors.add("Ossie Davis");
 //        actors.add("Oliver Platt");
-//        XPathExercise3(actors); //ok
+//        System.out.println(XPathExercise3(actors)); //ok
 //
-//        XPathExercise4(70, 91); //ok
+//        System.out.println(XPathExercise4(70, 91)); //ok
 //
-//        XPathExercise5("United States"); //ok
+//        System.out.println(XPathExercise5("United States")); //ok
 //
-//        XPathExercise6(1990, 1995); //ok
+//        System.out.println(XPathExercise6(1990, 1995)); //ok
 //
-//        XPathExercise7(50, 200); //ok
+//        System.out.println(XPathExercise7(50, 200)); //ok
 //
-//        XPathExercise8("English"); //ok
+//        System.out.println(XPathExercise8("English")); //ok
 
 
         // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
