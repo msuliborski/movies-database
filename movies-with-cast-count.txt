@@ -1,9 +1,19 @@
 
 Movies with cast count:
 		
+- The Hobbit: An Unexpected Journey (11)
+		
 - Toy Story (9)
 		
 - Dr. Dolittle (3)
+		
+- Sonic the Hedgehog (6)
+		
+- Schindler's List (6)
+		
+- The Tiger and the Snow (4)
+		
+- A Quiet Place (2)
 		
 - Pulp Fiction (12)
 		
@@ -11,17 +21,23 @@ Movies with cast count:
 		
 - Blade Runner (4)
 		
-- Prometheus (6)
+- Alien (7)
 		
 - Back to the Future (4)
+		
+- E.T. the Extra-Terrestrial (3)
 		
 - Good Will Hunting (5)
 		
 - The Talented Mr. Ripley (9)
 		
-- The Accidental Tourist (0)
+- The Accidental Tourist (4)
 		
 - Match Point (6)
+		
+- Avengers: Endgame (16)
+		
+- Avengers: Infinity War (19)
 		
 - Vicky Cristina Barcelona (7)
 		
@@ -29,7 +45,17 @@ Movies with cast count:
 		
 - Annie Hall (9)
 		
+- Midnight in Paris (7)
+		
 - The Village (6)
+		
+- Charlie Wilson's War (5)
+		
+- The Terminal (5)
+		
+- Cast Away (3)
+		
+- Saving Private Ryan (4)
 		
 - Quills (4)
 		
@@ -37,13 +63,11 @@ Movies with cast count:
 		
 - Pretty Woman (2)
 		
+- Runaway Bride (6)
+		
 - Ocean's Eleven (5)
 		
-- Avengers: Endgame (16)
-		
-- Schindler's List (6)
-		
-- A Quiet Place (2)
+- Smurfs: The Lost Village (13)
 		
 - Ida (3)
 		

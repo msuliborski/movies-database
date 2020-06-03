@@ -4,17 +4,17 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Wild Tales (film) - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"804a717d-243b-4591-8bd8-08aea0141917","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Wild_Tales_(film)","wgTitle":"Wild Tales (film)","wgCurRevisionId":959054411,"wgRevisionId":959054411,"wgArticleId":42521351,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 Spanish-language sources (es)","Articles with short description","Use dmy dates from September 2019","Template film date with 2 release dates","Articles containing Spanish-language text","Articles with Spanish-language sources (es)",
-"Official website different in Wikidata and Wikipedia","2014 films","Spanish-language films","2010s black comedy films","2010s comedy thriller films","Argentine black comedy films","Argentine films","Argentine films about revenge","Argentine satirical films","Best Foreign Film in the Spanish Language Goya Award Winners","Films about Jews and Judaism","Films produced by Agustín Almodóvar","Films scored by Gustavo Santaolalla","Films shot in Buenos Aires","Murder–suicide in films","Spanish anthology films","Spanish black comedy films","Spanish films","Spanish films about revenge"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Wild_Tales_(film)","wgRelevantArticleId":42521351,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{
-"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q16672466","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","skins.vector.js",
-"mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"3bff7fe2-4985-492e-a3e1-6c08556d9cf6","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Wild_Tales_(film)","wgTitle":"Wild Tales (film)","wgCurRevisionId":959734190,"wgRevisionId":959734190,"wgArticleId":42521351,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 Spanish-language sources (es)","Articles with short description","Use dmy dates from May 2020","Template film date with 2 release dates","Articles containing Spanish-language text","Articles with Spanish-language sources (es)","Official website different in Wikidata and Wikipedia",
+"2014 films","Spanish-language films","2010s black comedy films","2010s comedy thriller films","Argentine black comedy films","Argentine films","Argentine films about revenge","Argentine satirical films","Best Foreign Film in the Spanish Language Goya Award Winners","Films about Jews and Judaism","Films produced by Agustín Almodóvar","Films scored by Gustavo Santaolalla","Films shot in Buenos Aires","Murder–suicide in films","Spanish anthology films","Spanish black comedy films","Spanish films","Spanish films about revenge","2014 comedy films"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Wild_Tales_(film)","wgRelevantArticleId":42521351,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en",
+"pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q16672466","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","skins.vector.legacy.js","mediawiki.page.ready",
+"jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 });});</script>
 <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cjquery.tablesorter.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
 <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
-<meta name="generator" content="MediaWiki 1.35.0-wmf.32"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.34"/>
 <meta name="referrer" content="origin"/>
 <meta name="referrer" content="origin-when-crossorigin"/>
 <meta name="referrer" content="origin-when-cross-origin"/>
@@ -838,43 +838,43 @@
 </div></td></tr></tbody></table></div></div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1261
-Cached time: 20200527134855
+Parsed by mw1270
+Cached time: 20200602074254
 Cache expiry: 3600
 Dynamic content: true
 Complications: [vary‐revision‐sha1]
-CPU time usage: 1.268 seconds
-Real time usage: 1.488 seconds
-Preprocessor visited node count: 6213/1000000
-Post‐expand include size: 193976/2097152 bytes
-Template argument size: 28590/2097152 bytes
+CPU time usage: 1.148 seconds
+Real time usage: 1.379 seconds
+Preprocessor visited node count: 6281/1000000
+Post‐expand include size: 205719/2097152 bytes
+Template argument size: 28643/2097152 bytes
 Highest expansion depth: 24/40
 Expensive parser function count: 3/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 267109/5000000 bytes
 Number of Wikibase entities loaded: 1/400
-Lua time usage: 0.643/10.000 seconds
-Lua memory usage: 21.85 MB/50 MB
+Lua time usage: 0.570/10.000 seconds
+Lua memory usage: 21.81 MB/50 MB
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 1297.524      1 -total
- 42.17%  547.155      1 Template:Reflist
- 32.94%  427.352      2 Template:Infobox
- 29.25%  379.579     53 Template:Cite_web
- 20.07%  260.463      1 Template:Infobox_film
- 13.82%  179.359      1 Template:Infobox_name_module
-  7.85%  101.845      2 Template:Official_website
-  5.40%   70.003      1 Template:Navboxes
-  4.44%   57.634      1 Template:Short_description
-  4.35%   56.492      4 Template:Navbox
+100.00% 1200.743      1 -total
+ 38.87%  466.679      1 Template:Reflist
+ 31.51%  378.304      2 Template:Infobox
+ 27.85%  334.403     53 Template:Cite_web
+ 19.78%  237.551      1 Template:Infobox_film
+ 13.44%  161.413      1 Template:Infobox_name_module
+  6.86%   82.423      2 Template:Official_website
+  6.20%   74.418      1 Template:Navboxes
+  5.30%   63.591      4 Template:Navbox
+  4.34%   52.094      1 Template:Platino_Award_for_Best_Ibero-American_Film
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:42521351-0!canonical and timestamp 20200527134854 and revision id 959054411
+<!-- Saved in parser cache with key enwiki:pcache:idhash:42521351-0!canonical and timestamp 20200602074252 and revision id 959734190
  -->
 </div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
-		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Wild_Tales_(film)&amp;oldid=959054411">https://en.wikipedia.org/w/index.php?title=Wild_Tales_(film)&amp;oldid=959054411</a>"</div>
-		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:2014_films" title="Category:2014 films">2014 films</a></li><li><a href="/wiki/Category:Spanish-language_films" title="Category:Spanish-language films">Spanish-language films</a></li><li><a href="/wiki/Category:2010s_black_comedy_films" title="Category:2010s black comedy films">2010s black comedy films</a></li><li><a href="/wiki/Category:2010s_comedy_thriller_films" title="Category:2010s comedy thriller films">2010s comedy thriller films</a></li><li><a href="/wiki/Category:Argentine_black_comedy_films" title="Category:Argentine black comedy films">Argentine black comedy films</a></li><li><a href="/wiki/Category:Argentine_films" title="Category:Argentine films">Argentine films</a></li><li><a href="/wiki/Category:Argentine_films_about_revenge" title="Category:Argentine films about revenge">Argentine films about revenge</a></li><li><a href="/wiki/Category:Argentine_satirical_films" title="Category:Argentine satirical films">Argentine satirical films</a></li><li><a href="/wiki/Category:Best_Foreign_Film_in_the_Spanish_Language_Goya_Award_Winners" title="Category:Best Foreign Film in the Spanish Language Goya Award Winners">Best Foreign Film in the Spanish Language Goya Award Winners</a></li><li><a href="/wiki/Category:Films_about_Jews_and_Judaism" title="Category:Films about Jews and Judaism">Films about Jews and Judaism</a></li><li><a href="/wiki/Category:Films_produced_by_Agust%C3%ADn_Almod%C3%B3var" title="Category:Films produced by Agustín Almodóvar">Films produced by Agustín Almodóvar</a></li><li><a href="/wiki/Category:Films_scored_by_Gustavo_Santaolalla" title="Category:Films scored by Gustavo Santaolalla">Films scored by Gustavo Santaolalla</a></li><li><a href="/wiki/Category:Films_shot_in_Buenos_Aires" title="Category:Films shot in Buenos Aires">Films shot in Buenos Aires</a></li><li><a href="/wiki/Category:Murder%E2%80%93suicide_in_films" title="Category:Murder–suicide in films">Murder–suicide in films</a></li><li><a href="/wiki/Category:Spanish_anthology_films" title="Category:Spanish anthology films">Spanish anthology films</a></li><li><a href="/wiki/Category:Spanish_black_comedy_films" title="Category:Spanish black comedy films">Spanish black comedy films</a></li><li><a href="/wiki/Category:Spanish_films" title="Category:Spanish films">Spanish films</a></li><li><a href="/wiki/Category:Spanish_films_about_revenge" title="Category:Spanish films about revenge">Spanish films about revenge</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_Spanish-language_sources_(es)" title="Category:CS1 Spanish-language sources (es)">CS1 Spanish-language sources (es)</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_September_2019" title="Category:Use dmy dates from September 2019">Use dmy dates from September 2019</a></li><li><a href="/wiki/Category:Template_film_date_with_2_release_dates" title="Category:Template film date with 2 release dates">Template film date with 2 release dates</a></li><li><a href="/wiki/Category:Articles_containing_Spanish-language_text" title="Category:Articles containing Spanish-language text">Articles containing Spanish-language text</a></li><li><a href="/wiki/Category:Articles_with_Spanish-language_sources_(es)" title="Category:Articles with Spanish-language sources (es)">Articles with Spanish-language sources (es)</a></li><li><a href="/wiki/Category:Official_website_different_in_Wikidata_and_Wikipedia" title="Category:Official website different in Wikidata and Wikipedia">Official website different in Wikidata and Wikipedia</a></li></ul></div></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Wild_Tales_(film)&amp;oldid=959734190">https://en.wikipedia.org/w/index.php?title=Wild_Tales_(film)&amp;oldid=959734190</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:2014_films" title="Category:2014 films">2014 films</a></li><li><a href="/wiki/Category:Spanish-language_films" title="Category:Spanish-language films">Spanish-language films</a></li><li><a href="/wiki/Category:2010s_black_comedy_films" title="Category:2010s black comedy films">2010s black comedy films</a></li><li><a href="/wiki/Category:2010s_comedy_thriller_films" title="Category:2010s comedy thriller films">2010s comedy thriller films</a></li><li><a href="/wiki/Category:Argentine_black_comedy_films" title="Category:Argentine black comedy films">Argentine black comedy films</a></li><li><a href="/wiki/Category:Argentine_films" title="Category:Argentine films">Argentine films</a></li><li><a href="/wiki/Category:Argentine_films_about_revenge" title="Category:Argentine films about revenge">Argentine films about revenge</a></li><li><a href="/wiki/Category:Argentine_satirical_films" title="Category:Argentine satirical films">Argentine satirical films</a></li><li><a href="/wiki/Category:Best_Foreign_Film_in_the_Spanish_Language_Goya_Award_Winners" title="Category:Best Foreign Film in the Spanish Language Goya Award Winners">Best Foreign Film in the Spanish Language Goya Award Winners</a></li><li><a href="/wiki/Category:Films_about_Jews_and_Judaism" title="Category:Films about Jews and Judaism">Films about Jews and Judaism</a></li><li><a href="/wiki/Category:Films_produced_by_Agust%C3%ADn_Almod%C3%B3var" title="Category:Films produced by Agustín Almodóvar">Films produced by Agustín Almodóvar</a></li><li><a href="/wiki/Category:Films_scored_by_Gustavo_Santaolalla" title="Category:Films scored by Gustavo Santaolalla">Films scored by Gustavo Santaolalla</a></li><li><a href="/wiki/Category:Films_shot_in_Buenos_Aires" title="Category:Films shot in Buenos Aires">Films shot in Buenos Aires</a></li><li><a href="/wiki/Category:Murder%E2%80%93suicide_in_films" title="Category:Murder–suicide in films">Murder–suicide in films</a></li><li><a href="/wiki/Category:Spanish_anthology_films" title="Category:Spanish anthology films">Spanish anthology films</a></li><li><a href="/wiki/Category:Spanish_black_comedy_films" title="Category:Spanish black comedy films">Spanish black comedy films</a></li><li><a href="/wiki/Category:Spanish_films" title="Category:Spanish films">Spanish films</a></li><li><a href="/wiki/Category:Spanish_films_about_revenge" title="Category:Spanish films about revenge">Spanish films about revenge</a></li><li><a href="/wiki/Category:2014_comedy_films" title="Category:2014 comedy films">2014 comedy films</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_Spanish-language_sources_(es)" title="Category:CS1 Spanish-language sources (es)">CS1 Spanish-language sources (es)</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_May_2020" title="Category:Use dmy dates from May 2020">Use dmy dates from May 2020</a></li><li><a href="/wiki/Category:Template_film_date_with_2_release_dates" title="Category:Template film date with 2 release dates">Template film date with 2 release dates</a></li><li><a href="/wiki/Category:Articles_containing_Spanish-language_text" title="Category:Articles containing Spanish-language text">Articles containing Spanish-language text</a></li><li><a href="/wiki/Category:Articles_with_Spanish-language_sources_(es)" title="Category:Articles with Spanish-language sources (es)">Articles with Spanish-language sources (es)</a></li><li><a href="/wiki/Category:Official_website_different_in_Wikidata_and_Wikipedia" title="Category:Official website different in Wikidata and Wikipedia">Official website different in Wikidata and Wikipedia</a></li></ul></div></div>
 		<div class="visualClear"></div>
 		
 	</div>
@@ -886,52 +886,78 @@ Transclusion expansion time report (%,ms,calls,template)
 <div id="mw-navigation">
 	<h2>Navigation menu</h2>
 	<div id="mw-head">
-		<div id="p-personal" role="navigation" class="vector-menu" aria-labelledby="p-personal-label" >
-	<h3 id="p-personal-label">Personal tools</h3>
-	<ul class="menu" >
-		<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Wild+Tales+%28film%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Wild+Tales+%28film%29" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>
-	</ul>
+		<div id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Wild+Tales+%28film%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Wild+Tales+%28film%29" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
 </div>
 
 
 		<div id="left-navigation">
-			<div id="p-namespaces" role="navigation" class="vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" >
-	<h3 id="p-namespaces-label">Namespaces</h3>
-	<ul class="menu" >
-		<li id="ca-nstab-main" class="selected"><a href="/wiki/Wild_Tales_(film)" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="/wiki/Talk:Wild_Tales_(film)" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li>
-	</ul>
+			<div id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="ca-nstab-main" class="selected"><a href="/wiki/Wild_Tales_(film)" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="/wiki/Talk:Wild_Tales_(film)" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li></ul>
+		
+	</div>
 </div>
 
 
-			<div id="p-variants" role="navigation" class="emptyPortlet vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" >
+			<div id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" 
+	 >
 	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
-	<h3 id="p-variants-label" >
+	<h3 id="p-variants-label">
 		<span>Variants</span>
 	</h3>
-	<ul class="menu" >
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
 		
-	</ul>
+	</div>
 </div>
 
 
 		</div>
 		<div id="right-navigation">
-			<div id="p-views" role="navigation" class="vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" >
-	<h3 id="p-views-label">Views</h3>
-	<ul class="menu" >
-		<li id="ca-view" class="collapsible selected"><a href="/wiki/Wild_Tales_(film)">Read</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Wild_Tales_(film)&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=Wild_Tales_(film)&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li>
-	</ul>
+			<div id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="/wiki/Wild_Tales_(film)">Read</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Wild_Tales_(film)&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=Wild_Tales_(film)&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		
+	</div>
 </div>
 
 
-			<div id="p-cactions" role="navigation" class="emptyPortlet vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" >
+			<div id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" 
+	 >
 	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
-	<h3 id="p-cactions-label" >
+	<h3 id="p-cactions-label">
 		<span>More</span>
 	</h3>
-	<ul class="menu" >
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
 		
-	</ul>
+	</div>
 </div>
 
 
@@ -956,43 +982,68 @@ Transclusion expansion time report (%,ms,calls,template)
 	<div id="p-logo" role="banner">
 		<a  title="Visit the main page" class="mw-wiki-logo" href="/wiki/Main_Page"></a>
 	</div>
-	<div id="p-navigation" role="navigation" class="vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" >
-	<h3 id="p-navigation-label">Navigation</h3>
-	<div class="body">
-		<ul><li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Wikipedia:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+	<div id="p-navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-navigation-label" 
+	 >
+	<h3 id="p-navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Wikipedia:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
 		
 	</div>
 </div>
 
 
-	<div id="p-interaction" role="navigation" class="vector-menu-portal portal" aria-labelledby="p-interaction-label" >
-	<h3 id="p-interaction-label">Interaction</h3>
-	<div class="body">
-		<ul><li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li></ul>
+	<div id="p-interaction" class="vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" 
+	 >
+	<h3 id="p-interaction-label">
+		<span>Interaction</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li></ul>
 		
 	</div>
 </div>
 
-<div id="p-tb" role="navigation" class="vector-menu-portal portal" aria-labelledby="p-tb-label" >
-	<h3 id="p-tb-label">Tools</h3>
-	<div class="body">
-		<ul><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Wild_Tales_(film)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Wild_Tales_(film)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Wild_Tales_(film)&amp;oldid=959054411" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Wild_Tales_(film)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q16672466" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Wild_Tales_%28film%29&amp;id=959054411&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+<div id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Wild_Tales_(film)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Wild_Tales_(film)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Wild_Tales_(film)&amp;oldid=959734190" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Wild_Tales_(film)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q16672466" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Wild_Tales_%28film%29&amp;id=959734190&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
 		
 	</div>
 </div>
 
-<div id="p-coll-print_export" role="navigation" class="vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" >
-	<h3 id="p-coll-print_export-label">Print/export</h3>
-	<div class="body">
-		<ul><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Wild+Tales+%28film%29&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Wild_Tales_(film)&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+<div id="p-coll-print_export" class="vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" 
+	 >
+	<h3 id="p-coll-print_export-label">
+		<span>Print/export</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Wild+Tales+%28film%29&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Wild_Tales_(film)&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
 		
 	</div>
 </div>
 
-<div id="p-lang" role="navigation" class="vector-menu-portal portal" aria-labelledby="p-lang-label" >
-	<h3 id="p-lang-label">Languages</h3>
-	<div class="body">
-		<ul><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AD%D9%83%D8%A7%D9%8A%D8%A7%D8%AA_%D8%A8%D8%B1%D9%8A%D8%A9" title="حكايات برية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D0%B8_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8" title="Диви истории – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Divok%C3%A9_historky" title="Divoké historky – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Wild_Tales_%E2%80%93_Jeder_dreht_mal_durch!" title="Wild Tales – Jeder dreht mal durch! – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B5%CF%82_%CE%B3%CE%B9%CE%B1_%CE%B1%CE%B3%CF%81%CE%AF%CE%BF%CF%85%CF%82" title="Ιστορίες για αγρίους – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%82%D8%B5%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%88%D8%AD%D8%B4%DB%8C_(%D9%81%DB%8C%D9%84%D9%85)" title="قصه‌های وحشی (فیلم) – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Les_Nouveaux_Sauvages" title="Les Nouveaux Sauvages – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%99%80%EC%9D%BC%EB%93%9C_%ED%85%8C%EC%9D%BC%EC%A6%88:_%EC%B0%B8%EC%9D%84_%EC%88%98_%EC%97%86%EB%8A%94_%EC%88%9C%EA%B0%84" title="와일드 테일즈: 참을 수 없는 순간 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%8E%D5%A1%D5%B5%D6%80%D5%AB_%D5%BA%D5%A1%D5%BF%D5%B4%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6%D5%B6%D5%A5%D6%80" title="Վայրի պատմություններ – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Wild_Tales_(film)" title="Wild Tales (film) – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Storie_pazzesche" title="Storie pazzesche – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D_%D7%A4%D7%A8%D7%95%D7%A2%D7%99%D7%9D" title="סיפורים פרועים – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/%D0%96%D0%B0%D0%BF%D0%B0%D0%B9%D1%8B_%D0%B1%D0%B0%D1%8F%D0%BD%D0%B4%D0%B0%D1%80" title="Жапайы баяндар – Kyrgyz" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Me%C5%BEon%C4%ABgie_st%C4%81sti" title="Mežonīgie stāsti – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/%C5%A0iuolaikiniai_%C5%BEv%C4%97rys_(filmas)" title="Šiuolaikiniai žvėrys (filmas) – Lithuanian" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D0%B8_%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%D0%BD%D0%B8_(%D1%84%D0%B8%D0%BB%D0%BC_%D0%BE%D0%B4_2014)" title="Диви приказни (филм од 2014) – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%B5%E0%B5%88%E0%B5%BD%E0%B4%A1%E0%B5%8D_%E0%B4%9F%E0%B5%87%E0%B5%BD%E0%B4%B8%E0%B5%8D" title="വൈൽഡ് ടേൽസ് – Malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E4%BA%BA%E7%94%9F%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81" title="人生スイッチ – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Dzikie_historie" title="Dzikie historie – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Relatos_Selvagens" title="Relatos Selvagens – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BA%D0%B8%D0%B5_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8" title="Дикие истории – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D1%99%D0%B5_%D0%BF%D1%80%D0%B8%D1%87%D0%B5" title="Дивље приче – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Wild_Tales" title="Wild Tales – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Wild_Tales" title="Wild Tales – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Asabiyim_Ben" title="Asabiyim Ben – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B8%D0%BA%D1%96_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97" title="Дикі історії – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%8D%92%E8%9B%AE%E6%95%85%E4%BA%8B" title="荒蛮故事 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
+<div id="p-lang" class="vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" 
+	 >
+	<h3 id="p-lang-label">
+		<span>Languages</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AD%D9%83%D8%A7%D9%8A%D8%A7%D8%AA_%D8%A8%D8%B1%D9%8A%D8%A9" title="حكايات برية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D0%B8_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8" title="Диви истории – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Divok%C3%A9_historky" title="Divoké historky – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Wild_Tales_%E2%80%93_Jeder_dreht_mal_durch!" title="Wild Tales – Jeder dreht mal durch! – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B5%CF%82_%CE%B3%CE%B9%CE%B1_%CE%B1%CE%B3%CF%81%CE%AF%CE%BF%CF%85%CF%82" title="Ιστορίες για αγρίους – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%82%D8%B5%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%88%D8%AD%D8%B4%DB%8C_(%D9%81%DB%8C%D9%84%D9%85)" title="قصه‌های وحشی (فیلم) – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Les_Nouveaux_Sauvages" title="Les Nouveaux Sauvages – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%99%80%EC%9D%BC%EB%93%9C_%ED%85%8C%EC%9D%BC%EC%A6%88:_%EC%B0%B8%EC%9D%84_%EC%88%98_%EC%97%86%EB%8A%94_%EC%88%9C%EA%B0%84" title="와일드 테일즈: 참을 수 없는 순간 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D5%8E%D5%A1%D5%B5%D6%80%D5%AB_%D5%BA%D5%A1%D5%BF%D5%B4%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6%D5%B6%D5%A5%D6%80" title="Վայրի պատմություններ – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Wild_Tales_(film)" title="Wild Tales (film) – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Storie_pazzesche" title="Storie pazzesche – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%A4%D7%95%D7%A8%D7%99%D7%9D_%D7%A4%D7%A8%D7%95%D7%A2%D7%99%D7%9D" title="סיפורים פרועים – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/%D0%96%D0%B0%D0%BF%D0%B0%D0%B9%D1%8B_%D0%B1%D0%B0%D1%8F%D0%BD%D0%B4%D0%B0%D1%80" title="Жапайы баяндар – Kyrgyz" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Me%C5%BEon%C4%ABgie_st%C4%81sti" title="Mežonīgie stāsti – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/%C5%A0iuolaikiniai_%C5%BEv%C4%97rys_(filmas)" title="Šiuolaikiniai žvėrys (filmas) – Lithuanian" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li><li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D0%B8_%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%D0%BD%D0%B8_(%D1%84%D0%B8%D0%BB%D0%BC_%D0%BE%D0%B4_2014)" title="Диви приказни (филм од 2014) – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%B5%E0%B5%88%E0%B5%BD%E0%B4%A1%E0%B5%8D_%E0%B4%9F%E0%B5%87%E0%B5%BD%E0%B4%B8%E0%B5%8D" title="വൈൽഡ് ടേൽസ് – Malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Relatos_salvajes" title="Relatos salvajes – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E4%BA%BA%E7%94%9F%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81" title="人生スイッチ – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Dzikie_historie" title="Dzikie historie – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Relatos_Selvagens" title="Relatos Selvagens – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BA%D0%B8%D0%B5_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8" title="Дикие истории – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D1%99%D0%B5_%D0%BF%D1%80%D0%B8%D1%87%D0%B5" title="Дивље приче – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Wild_Tales" title="Wild Tales – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Wild_Tales" title="Wild Tales – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Asabiyim_Ben" title="Asabiyim Ben – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B8%D0%BA%D1%96_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97" title="Дикі історії – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E8%8D%92%E8%9B%AE%E6%95%85%E4%BA%8B" title="荒蛮故事 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
 		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q16672466#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
 	</div>
 </div>
@@ -1004,7 +1055,7 @@ Transclusion expansion time report (%,ms,calls,template)
 
 <div id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info" >
-		<li id="footer-info-lastmod"> This page was last edited on 26 May 2020, at 23:12<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-lastmod"> This page was last edited on 30 May 2020, at 09:51<span class="anonymous-show">&#160;(UTC)</span>.</li>
 		<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 	</ul>
@@ -1012,11 +1063,11 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
 		<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
 		<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
-		<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
 		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
 		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
 		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
 		<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Wild_Tales_(film)&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+		<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
 	</ul>
 	<ul id="footer-icons" class="noprint">
 		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
@@ -1026,6 +1077,6 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </div>
 
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.268","walltime":"1.488","ppvisitednodes":{"value":6213,"limit":1000000},"postexpandincludesize":{"value":193976,"limit":2097152},"templateargumentsize":{"value":28590,"limit":2097152},"expansiondepth":{"value":24,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":267109,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 1297.524      1 -total"," 42.17%  547.155      1 Template:Reflist"," 32.94%  427.352      2 Template:Infobox"," 29.25%  379.579     53 Template:Cite_web"," 20.07%  260.463      1 Template:Infobox_film"," 13.82%  179.359      1 Template:Infobox_name_module","  7.85%  101.845      2 Template:Official_website","  5.40%   70.003      1 Template:Navboxes","  4.44%   57.634      1 Template:Short_description","  4.35%   56.492      4 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.643","limit":"10.000"},"limitreport-memusage":{"value":22915364,"limit":52428800}},"cachereport":{"origin":"mw1261","timestamp":"20200527134855","ttl":3600,"transientcontent":true}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Wild Tales (film)","url":"https:\/\/en.wikipedia.org\/wiki\/Wild_Tales_(film)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q16672466","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q16672466","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2014-04-18T08:35:17Z","dateModified":"2020-05-26T23:12:51Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/5e\/Relatos_salvajes.jpg","headline":"2014 anthology film by Dami\u00e1n Szifron"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":123,"wgHostname":"mw1262"});});</script></body></html>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.148","walltime":"1.379","ppvisitednodes":{"value":6281,"limit":1000000},"postexpandincludesize":{"value":205719,"limit":2097152},"templateargumentsize":{"value":28643,"limit":2097152},"expansiondepth":{"value":24,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":267109,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 1200.743      1 -total"," 38.87%  466.679      1 Template:Reflist"," 31.51%  378.304      2 Template:Infobox"," 27.85%  334.403     53 Template:Cite_web"," 19.78%  237.551      1 Template:Infobox_film"," 13.44%  161.413      1 Template:Infobox_name_module","  6.86%   82.423      2 Template:Official_website","  6.20%   74.418      1 Template:Navboxes","  5.30%   63.591      4 Template:Navbox","  4.34%   52.094      1 Template:Platino_Award_for_Best_Ibero-American_Film"]},"scribunto":{"limitreport-timeusage":{"value":"0.570","limit":"10.000"},"limitreport-memusage":{"value":22872999,"limit":52428800}},"cachereport":{"origin":"mw1270","timestamp":"20200602074254","ttl":3600,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Wild Tales (film)","url":"https:\/\/en.wikipedia.org\/wiki\/Wild_Tales_(film)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q16672466","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q16672466","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2014-04-18T08:35:17Z","dateModified":"2020-05-30T09:51:02Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/5e\/Relatos_salvajes.jpg","headline":"2014 anthology film by Dami\u00e1n Szifron"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":125,"wgHostname":"mw1387"});});</script></body></html>

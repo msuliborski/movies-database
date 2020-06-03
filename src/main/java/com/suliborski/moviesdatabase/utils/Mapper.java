@@ -58,7 +58,7 @@ public class Mapper {
             }
 
 
-            matcher = Pattern.compile("(?<![a-z]=)[\"|>]([ A-Za-z\\p{L}0-9$&#;,-.]+?)[\"|<]").matcher(line);
+            matcher = Pattern.compile("(?<![a-z]=)[\"|>]([ A-Za-z\\p{L}0-9()$&#;,-.]+?)[\"|<]").matcher(line);
             while (matcher.find()) {
                 wikiTable.append(matcher.group(1)).append("=");
             }
@@ -68,6 +68,7 @@ public class Mapper {
 
         for (String cell : wikiTableData) {
             cell = unescapeHtml4(cell);
+            if (Pattern.compile("\\[[\\d]+\\]").matcher(cell).find()) continue;
             if (cell.equals("Directed by")) {
                 mode = Mode.director; continue;
             } else if (cell.equals("Release date")) {
@@ -163,7 +164,6 @@ public class Mapper {
     public static Movie elementToMovie(Element movieElement) {
         Movie movie = new Movie();
 
-
         movie.setTitle(movieElement.getChild("title", movieElement.getNamespace()).getText());
         movie.setImageURL(movieElement.getChild("image-URL", movieElement.getNamespace()).getText());
         movie.setReleaseDateUSA(movieElement.getChild("release-date-USA", movieElement.getNamespace()).getText());
@@ -238,11 +238,12 @@ public class Mapper {
 
     public static void moviesToNewXMLFile(List<Movie> movies, String fileName) {
         Document document = new Document();
-        Element rootElement = new Element("movies", Namespace.NO_NAMESPACE); //Namespace.getNamespace("http://suliborski.com/"));
+        Element rootElement = new Element("movies", Namespace.NO_NAMESPACE);
+        document.setDocType(new DocType(rootElement.getName(), fileName.substring(0, fileName.lastIndexOf('.')) + ".dtd"));
         Namespace namespace = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
         rootElement.addNamespaceDeclaration(namespace);
         rootElement.setAttribute(new Attribute("noNamespaceSchemaLocation", "movies.xsd", Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance")));
-        document.setDocType(new DocType(rootElement.getName(), fileName.substring(0, fileName.lastIndexOf('.')) + ".dtd"));
+
         document.setRootElement(rootElement);
 
         for (Movie movie : movies)
@@ -253,7 +254,6 @@ public class Mapper {
             xmlOutputter.output(document, new FileOutputStream(fileName));
         } catch (IOException ignore) {
         }
-
     }
 
     public static Movie getMovieFromXMLFile(String title, String fileName) {
@@ -414,31 +414,36 @@ public class Mapper {
     public static void generateSampleXML() {
         List<String> movieStrings = new ArrayList<>();
         List<Movie> movies = new ArrayList<>();
+        try {
+            movieStrings.addAll(Files.readAllLines(Paths.get("list.txt")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-        movieStrings.add("Toy Story");
-        movieStrings.add("Dr. Dolittle (1998 film)");
-        movieStrings.add("Pulp Fiction");
-        movieStrings.add("Thelma & Louise");
-        movieStrings.add("Blade Runner");
-        movieStrings.add("Prometheus (2012 film)");
-        movieStrings.add("Back to the Future");
-        movieStrings.add("Good Will Hunting");
-        movieStrings.add("The Talented Mr. Ripley (film)");
-        movieStrings.add("The Accidental Tourist");
-        movieStrings.add("Match Point");
-        movieStrings.add("Vicky Cristina Barcelona");
-        movieStrings.add("Larry Crowne");
-        movieStrings.add("Annie Hall");
-        movieStrings.add("The Village (2004 film)");
-        movieStrings.add("Quills");
-        movieStrings.add("Walk the Line");
-        movieStrings.add("Pretty Woman");
-        movieStrings.add("Ocean's Eleven");
-        movieStrings.add("Avengers: Endgame");
-        movieStrings.add("Schindler's List");
-        movieStrings.add("A Quiet Place (film)");
-        movieStrings.add("Ida (film)");
-        movieStrings.add("Wild Tales (film)");
+//        movieStrings.add("Toy Story");
+//        movieStrings.add("Dr. Dolittle (1998 film)");
+//        movieStrings.add("Pulp Fiction");
+//        movieStrings.add("Thelma & Louise");
+//        movieStrings.add("Blade Runner");
+//        movieStrings.add("Prometheus (2012 film)");
+//        movieStrings.add("Back to the Future");
+//        movieStrings.add("Good Will Hunting");
+//        movieStrings.add("The Talented Mr. Ripley (film)");
+//        movieStrings.add("The Accidental Tourist");
+//        movieStrings.add("Match Point");
+//        movieStrings.add("Vicky Cristina Barcelona");
+//        movieStrings.add("Larry Crowne");
+//        movieStrings.add("Annie Hall");
+//        movieStrings.add("The Village (2004 film)");
+//        movieStrings.add("Quills");
+//        movieStrings.add("Walk the Line");
+//        movieStrings.add("Pretty Woman");
+//        movieStrings.add("Ocean's Eleven");
+//        movieStrings.add("Avengers: Endgame");
+//        movieStrings.add("Schindler's List");
+//        movieStrings.add("A Quiet Place (film)");
+//        movieStrings.add("Ida (film)");
+//        movieStrings.add("Wild Tales (film)");
 
         String link = "https://en.wikipedia.org/wiki/";
 

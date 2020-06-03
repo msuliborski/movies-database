@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movies>
    <movie>
+      <title>The Tiger and the Snow</title>
+      <year>2005</year>
+      <country>Italy</country>
+      <director>Roberto Benigni</director>
+      <original-language>Italian</original-language>
+   </movie>
+   <movie>
       <title>A Quiet Place</title>
       <year>2018</year>
       <country>United States</country>
