@@ -27,7 +27,8 @@ public class Mapper {
         skip, title, imageURL, releaseDateUSA, country, director, cast, duration, distributedBy, originalLanguage, musicAuthors, boxOffice, producers
     }
 
-    public static Movie stringToMovie(String sourceCode) {
+    public static Movie sourceCodeToMovie(String sourceCode) {
+        if (sourceCode.equals("")) return null;
         Mode mode = Mode.title;
         Movie movie = new Movie();
         StringBuilder wikiTable = new StringBuilder();
@@ -43,7 +44,7 @@ public class Mapper {
                 matcher = Pattern.compile("<h1 id=\"firstHeading\" class=\"firstHeading\" lang=\"en\"><i>(.*?)</i>").matcher(line);
                 if (matcher.find()) {
                     String s = unescapeHtml4(matcher.group(1));
-                    if (s.contains("&amp;")) s = s.replace("&amp;", "&");
+                    if (s.equals("")) return null;
                     movie.setTitle(s);
                     mode = Mode.imageURL;
                 }
@@ -68,7 +69,7 @@ public class Mapper {
 
         for (String cell : wikiTableData) {
             cell = unescapeHtml4(cell);
-            if (Pattern.compile("\\[[\\d]+\\]").matcher(cell).find()) continue;
+            if (Pattern.compile("\\[[\\d]\\]").matcher(cell).find()) continue;
             if (cell.equals("Directed by")) {
                 mode = Mode.director; continue;
             } else if (cell.equals("Release date")) {
@@ -247,7 +248,7 @@ public class Mapper {
         document.setRootElement(rootElement);
 
         for (Movie movie : movies)
-            document.getRootElement().addContent(movieToElement(movie, rootElement.getNamespace()));
+            if (movie != null && !movie.getTitle().equals("")) document.getRootElement().addContent(movieToElement(movie, rootElement.getNamespace()));
 
         XMLOutputter xmlOutputter = new XMLOutputter(Format.getPrettyFormat());
         try {
@@ -286,19 +287,19 @@ public class Mapper {
         if (getMovieElementByTitle(title, fileName) == null) {
 
             String wikiSourceCode = HttpRequest.httpRequest("https://en.wikipedia.org/wiki/", title, "output.txt");
-            Movie movie = Mapper.stringToMovie(wikiSourceCode);
+            Movie movie = Mapper.sourceCodeToMovie(wikiSourceCode != null ? wikiSourceCode : "");
 
-            addMovieToXMLFile(movie, fileName);
+            if (movie != null && !movie.getTitle().equals("")) addMovieToXMLFile(movie, fileName);
         }
     }
 
     public static void addMovieToXMLFile(Movie movie, String fileName) {
         File file = new File(fileName);
         if (file.exists() && !file.isDirectory()) {
-            saveRootElementInXMLFile(getRootElementFromXMLFile(fileName).addContent(movieToElement(movie, getRootElementFromXMLFile(fileName).getNamespace())), fileName);
+            if (movie != null && !movie.getTitle().equals("")) saveRootElementInXMLFile(getRootElementFromXMLFile(fileName).addContent(movieToElement(movie, getRootElementFromXMLFile(fileName).getNamespace())), fileName);
         } else {
             List<Movie> movieList = new ArrayList<>();
-            movieList.add(movie);
+            if (movie != null && !movie.getTitle().equals("")) movieList.add(movie);
             moviesToNewXMLFile(movieList, fileName);
         }
     }
@@ -420,39 +421,15 @@ public class Mapper {
             e.printStackTrace();
         }
 
-//        movieStrings.add("Toy Story");
-//        movieStrings.add("Dr. Dolittle (1998 film)");
-//        movieStrings.add("Pulp Fiction");
-//        movieStrings.add("Thelma & Louise");
-//        movieStrings.add("Blade Runner");
-//        movieStrings.add("Prometheus (2012 film)");
-//        movieStrings.add("Back to the Future");
-//        movieStrings.add("Good Will Hunting");
-//        movieStrings.add("The Talented Mr. Ripley (film)");
-//        movieStrings.add("The Accidental Tourist");
-//        movieStrings.add("Match Point");
-//        movieStrings.add("Vicky Cristina Barcelona");
-//        movieStrings.add("Larry Crowne");
-//        movieStrings.add("Annie Hall");
-//        movieStrings.add("The Village (2004 film)");
-//        movieStrings.add("Quills");
-//        movieStrings.add("Walk the Line");
-//        movieStrings.add("Pretty Woman");
-//        movieStrings.add("Ocean's Eleven");
-//        movieStrings.add("Avengers: Endgame");
-//        movieStrings.add("Schindler's List");
-//        movieStrings.add("A Quiet Place (film)");
-//        movieStrings.add("Ida (film)");
-//        movieStrings.add("Wild Tales (film)");
-
         String link = "https://en.wikipedia.org/wiki/";
 
         for (String movieString : movieStrings) {
             String wikiSourceCode = HttpRequest.httpRequest(link, movieString, "output.txt");
-            movies.add(Mapper.stringToMovie(wikiSourceCode));
+            Movie movie = sourceCodeToMovie(wikiSourceCode != null ? wikiSourceCode : "");
+            if (movie != null && !movie.getTitle().equals("")) movies.add(movie);
         }
 
-        Mapper.moviesToNewXMLFile(movies, "movies.xml");
+        moviesToNewXMLFile(movies, "movies.xml");
     }
 }
 

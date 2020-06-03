@@ -1,1002 +1,1001 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE movies SYSTEM "movies.dtd">
+<?xml version="1.0" encoding="utf-8"?>
 <movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="movies.xsd">
-  <movie>
-    <title>The Hobbit: An Unexpected Journey</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg</image-URL>
-    <release-date-USA>28 November 2012</release-date-USA>
-    <year>2012</year>
-    <country>New Zealand</country>
-    <director>Peter Jackson</director>
-    <producers>
-      <producer>Carolynne Cunningham</producer>
-      <producer>Zane Weiner</producer>
-      <producer>Fran Walsh</producer>
-      <producer>Peter Jackson</producer>
-    </producers>
-    <cast>
-      <actor>Ian McKellen</actor>
-      <actor>Martin Freeman</actor>
-      <actor>Richard Armitage</actor>
-      <actor>James Nesbitt</actor>
-      <actor>Ken Stott</actor>
-      <actor>Cate Blanchett</actor>
-      <actor>Ian Holm</actor>
-      <actor>Christopher Lee</actor>
-      <actor>Hugo Weaving</actor>
-      <actor>Elijah Wood</actor>
-      <actor>Andy Serkis</actor>
-    </cast>
-    <duration>169</duration>
-    <distributed-by>Warner Bros. Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Howard Shore</author>
-    </music>
-    <box-office>1021.0</box-office>
-  </movie>
-  <movie>
-    <title>Toy Story</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg</image-URL>
-    <release-date-USA>November 19, 1995</release-date-USA>
-    <year>1995</year>
-    <country>United States</country>
-    <director>John Lasseter</director>
-    <producers>
-      <producer>Bonnie Arnold</producer>
-      <producer>Ralph Guggenheim</producer>
-    </producers>
-    <cast>
-      <actor>Tom Hanks</actor>
-      <actor>Tim Allen</actor>
-      <actor>Don Rickles</actor>
-      <actor>Jim Varney</actor>
-      <actor>Wallace Shawn</actor>
-      <actor>John Ratzenberger</actor>
-      <actor>Annie Potts</actor>
-      <actor>John Morris</actor>
-      <actor>Erik von Detten</actor>
-    </cast>
-    <duration>81</duration>
-    <distributed-by>Buena Vista Pictures Distribution</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Randy Newman</author>
-    </music>
-    <box-office>373.6</box-office>
-  </movie>
-  <movie>
-    <title>Dr. Dolittle</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Dr_dolittle_movie_1998.jpg/220px-Dr_dolittle_movie_1998.jpg</image-URL>
-    <release-date-USA>June 26, 1998</release-date-USA>
-    <year>1998</year>
-    <country>United States</country>
-    <director>Betty Thomas</director>
-    <producers>
-      <producer>John Davis</producer>
-      <producer>David T. Friendly</producer>
-      <producer>Joseph M. Singer</producer>
-    </producers>
-    <cast>
-      <actor>Eddie Murphy</actor>
-      <actor>Ossie Davis</actor>
-      <actor>Oliver Platt</actor>
-    </cast>
-    <duration>85</duration>
-    <distributed-by>20th Century Fox</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Richard Gibbs</author>
-    </music>
-    <box-office>294.4</box-office>
-  </movie>
-  <movie>
-    <title>Sonic the Hedgehog</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sonic_the_Hedgehog_poster.jpg/220px-Sonic_the_Hedgehog_poster.jpg</image-URL>
-    <release-date-USA>January 25, 2020</release-date-USA>
-    <year>2020</year>
-    <country>United States</country>
-    <director>Jeff Fowler</director>
-    <producers>
-      <producer>Neal H. Moritz</producer>
-      <producer>Toby Ascher</producer>
-      <producer>Toru Nakahara</producer>
-      <producer>Takeshi Ito</producer>
-    </producers>
-    <cast>
-      <actor>James Marsden</actor>
-      <actor>Ben Schwartz</actor>
-      <actor>Tika Sumpter</actor>
-      <actor>Jim Carrey</actor>
-      <actor>Narrated by</actor>
-      <actor>Ben Schwartz</actor>
-    </cast>
-    <duration>99</duration>
-    <distributed-by>Paramount Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Tom Holkenborg</author>
-    </music>
-    <box-office>306.8</box-office>
-  </movie>
-  <movie>
-    <title>Schindler's List</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg</image-URL>
-    <release-date-USA>November 30, 1993</release-date-USA>
-    <year>1993</year>
-    <country>United States</country>
-    <director>Steven Spielberg</director>
-    <producers>
-      <producer>Steven Spielberg</producer>
-      <producer>Gerald R. Molen</producer>
-      <producer>Branko Lustig</producer>
-    </producers>
-    <cast>
-      <actor>Liam Neeson</actor>
-      <actor>Ben Kingsley</actor>
-      <actor>Ralph Fiennes</actor>
-      <actor>Caroline Goodall</actor>
-      <actor>Jonathan Sagall</actor>
-      <actor>Embeth Davidtz</actor>
-    </cast>
-    <duration>195</duration>
-    <distributed-by>Universal Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>John Williams</author>
-    </music>
-    <box-office>321.3</box-office>
-  </movie>
-  <movie>
-    <title>The Tiger and the Snow</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png</image-URL>
-    <release-date-USA>2005</release-date-USA>
-    <year>2005</year>
-    <country>Italy</country>
-    <director>Roberto Benigni</director>
-    <producers>
-      <producer>Nicoletta Braschi</producer>
-    </producers>
-    <cast>
-      <actor>Roberto Benigni</actor>
-      <actor>Jean Reno</actor>
-      <actor>Nicoletta Braschi</actor>
-      <actor>Emilia Fox</actor>
-    </cast>
-    <duration>118</duration>
-    <distributed-by />
-    <original-language>Italian</original-language>
-    <music />
-    <box-office>0.0</box-office>
-  </movie>
-  <movie>
-    <title>A Quiet Place</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png</image-URL>
-    <release-date-USA>March 9, 2018</release-date-USA>
-    <year>2018</year>
-    <country>United States</country>
-    <director>John Krasinski</director>
-    <producers>
-      <producer>Michael Bay</producer>
-      <producer>Andrew Form</producer>
-      <producer>Brad Fuller</producer>
-    </producers>
-    <cast>
-      <actor>Emily Blunt</actor>
-      <actor>John Krasinski</actor>
-    </cast>
-    <duration>90</duration>
-    <distributed-by>Paramount Pictures</distributed-by>
-    <original-language>American Sign Language</original-language>
-    <music>
-      <author>Marco Beltrami</author>
-    </music>
-    <box-office>340.9</box-office>
-  </movie>
-  <movie>
-    <title>Pulp Fiction</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg</image-URL>
-    <release-date-USA>May 21, 1994</release-date-USA>
-    <year>1994</year>
-    <country>United States</country>
-    <director>Quentin Tarantino</director>
-    <producers>
-      <producer>Lawrence Bender</producer>
-    </producers>
-    <cast>
-      <actor>John Travolta</actor>
-      <actor>Samuel L. Jackson</actor>
-      <actor>Uma Thurman</actor>
-      <actor>Harvey Keitel</actor>
-      <actor>Tim Roth</actor>
-      <actor>Amanda Plummer</actor>
-      <actor>Maria de Medeiros</actor>
-      <actor>Ving Rhames</actor>
-      <actor>Eric Stoltz</actor>
-      <actor>Rosanna Arquette</actor>
-      <actor>Christopher Walken</actor>
-      <actor>Bruce Willis</actor>
-    </cast>
-    <duration>154</duration>
-    <distributed-by>Miramax Films</distributed-by>
-    <original-language>English</original-language>
-    <music />
-    <box-office>213.9</box-office>
-  </movie>
-  <movie>
-    <title>Thelma &amp; Louise</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/8/8f/Thelma_%26_Louise_poster.png/220px-Thelma_%26_Louise_poster.png</image-URL>
-    <release-date-USA>May 20, 1991</release-date-USA>
-    <year>1991</year>
-    <country>United States</country>
-    <director>Ridley Scott</director>
-    <producers>
-      <producer>Ridley Scott</producer>
-      <producer>Mimi Polk Gitlin</producer>
-    </producers>
-    <cast>
-      <actor>Susan Sarandon</actor>
-      <actor>Geena Davis</actor>
-      <actor>Harvey Keitel</actor>
-    </cast>
-    <duration>129</duration>
-    <distributed-by>Metro-Goldwyn-Mayer</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Hans Zimmer</author>
-    </music>
-    <box-office>45.4</box-office>
-  </movie>
-  <movie>
-    <title>Blade Runner</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/9/9f/Blade_Runner_%281982_poster%29.png/220px-Blade_Runner_%281982_poster%29.png</image-URL>
-    <release-date-USA>June 25, 1982</release-date-USA>
-    <year>1982</year>
-    <country>United States</country>
-    <director>Ridley Scott</director>
-    <producers>
-      <producer>Michael Deeley</producer>
-    </producers>
-    <cast>
-      <actor>Harrison Ford</actor>
-      <actor>Rutger Hauer</actor>
-      <actor>Sean Young</actor>
-      <actor>Edward James Olmos</actor>
-    </cast>
-    <duration>117</duration>
-    <distributed-by>Warner Bros.</distributed-by>
-    <original-language />
-    <music>
-      <author>Vangelis</author>
-    </music>
-    <box-office>41.5</box-office>
-  </movie>
-  <movie>
-    <title>Alien</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Alien_movie_poster.jpg/220px-Alien_movie_poster.jpg</image-URL>
-    <release-date-USA>May 25, 1979</release-date-USA>
-    <year>1979</year>
-    <country>United Kingdom</country>
-    <director>Ridley Scott</director>
-    <producers>
-      <producer>Gordon Carroll</producer>
-      <producer>David Giler</producer>
-      <producer>Walter Hill</producer>
-    </producers>
-    <cast>
-      <actor>Tom Skerritt</actor>
-      <actor>Sigourney Weaver</actor>
-      <actor>Veronica Cartwright</actor>
-      <actor>Harry Dean Stanton</actor>
-      <actor>John Hurt</actor>
-      <actor>Ian Holm</actor>
-      <actor>Yaphet Kotto</actor>
-    </cast>
-    <duration>117</duration>
-    <distributed-by>20th Century Fox</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Jerry Goldsmith</author>
-    </music>
-    <box-office>203.6</box-office>
-  </movie>
-  <movie>
-    <title>Back to the Future</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/d/d2/Back_to_the_Future.jpg/220px-Back_to_the_Future.jpg</image-URL>
-    <release-date-USA>July 3, 1985</release-date-USA>
-    <year>1985</year>
-    <country>United States</country>
-    <director>Robert Zemeckis</director>
-    <producers>
-      <producer>Bob Gale</producer>
-      <producer>Neil Canton</producer>
-    </producers>
-    <cast>
-      <actor>Michael J. Fox</actor>
-      <actor>Christopher Lloyd</actor>
-      <actor>Lea Thompson</actor>
-      <actor>Crispin Glover</actor>
-    </cast>
-    <duration>116</duration>
-    <distributed-by>Universal Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Alan Silvestri</author>
-    </music>
-    <box-office>389.1</box-office>
-  </movie>
-  <movie>
-    <title>E.T. the Extra-Terrestrial</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/6/66/E_t_the_extra_terrestrial_ver3.jpg/220px-E_t_the_extra_terrestrial_ver3.jpg</image-URL>
-    <release-date-USA>May 26, 1982</release-date-USA>
-    <year>1982</year>
-    <country>United States</country>
-    <director>Steven Spielberg</director>
-    <producers>
-      <producer>Kathleen Kennedy</producer>
-      <producer>Steven Spielberg</producer>
-    </producers>
-    <cast>
-      <actor>Dee Wallace</actor>
-      <actor>Peter Coyote</actor>
-      <actor>Henry Thomas</actor>
-    </cast>
-    <duration>114</duration>
-    <distributed-by>Universal Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>John Williams</author>
-    </music>
-    <box-office>792.9</box-office>
-  </movie>
-  <movie>
-    <title>Good Will Hunting</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/52/Good_Will_Hunting.png/220px-Good_Will_Hunting.png</image-URL>
-    <release-date-USA>December 2, 1997</release-date-USA>
-    <year>1997</year>
-    <country>United States</country>
-    <director>Gus Van Sant</director>
-    <producers>
-      <producer>Lawrence Bender</producer>
-    </producers>
-    <cast>
-      <actor>Robin Williams</actor>
-      <actor>Matt Damon</actor>
-      <actor>Ben Affleck</actor>
-      <actor>Stellan Skarsgård</actor>
-      <actor>Minnie Driver</actor>
-    </cast>
-    <duration>126</duration>
-    <distributed-by>Miramax Films</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Danny Elfman</author>
-    </music>
-    <box-office>225.9</box-office>
-  </movie>
-  <movie>
-    <title>The Talented Mr. Ripley</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/2/22/Talented_mr_ripley.jpg/220px-Talented_mr_ripley.jpg</image-URL>
-    <release-date-USA>December 12, 1999</release-date-USA>
-    <year>1999</year>
-    <country>United States</country>
-    <director>Anthony Minghella</director>
-    <producers>
-      <producer>William Horberg</producer>
-      <producer>Tom Sternberg</producer>
-    </producers>
-    <cast>
-      <actor>Matt Damon</actor>
-      <actor>Gwyneth Paltrow</actor>
-      <actor>Jude Law</actor>
-      <actor>Cate Blanchett</actor>
-      <actor>Philip Seymour Hoffman</actor>
-      <actor>Jack Davenport</actor>
-      <actor>James Rebhorn</actor>
-      <actor>Sergio Rubini</actor>
-      <actor>Philip Baker Hall</actor>
-    </cast>
-    <duration>139</duration>
-    <distributed-by>Paramount Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Gabriel Yared</author>
-    </music>
-    <box-office>128.8</box-office>
-  </movie>
-  <movie>
-    <title>The Accidental Tourist</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png</image-URL>
-    <release-date-USA>December 23, 1988</release-date-USA>
-    <year>1988</year>
-    <country>United States</country>
-    <director>Lawrence Kasdan</director>
-    <producers>
-      <producer>Lawrence Kasdan</producer>
-      <producer>Charles Okun</producer>
-      <producer>Michael Grillo</producer>
-    </producers>
-    <cast>
-      <actor>William Hurt</actor>
-      <actor>Kathleen Turner</actor>
-      <actor>Geena Davis</actor>
-      <actor>Bill Pullman</actor>
-    </cast>
-    <duration>121</duration>
-    <distributed-by>Warner Bros.</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>John Williams</author>
-    </music>
-    <box-office>32.6</box-office>
-  </movie>
-  <movie>
-    <title>Match Point</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/8/82/Match_Point_poster.png</image-URL>
-    <release-date-USA>12 May 2005</release-date-USA>
-    <year>2005</year>
-    <country>United Kingdom</country>
-    <director>Woody Allen</director>
-    <producers>
-      <producer>Letty Aronson</producer>
-      <producer>Gareth Wiley</producer>
-      <producer>Lucy Darwin</producer>
-    </producers>
-    <cast>
-      <actor>Brian Cox</actor>
-      <actor>Matthew Goode</actor>
-      <actor>Scarlett Johansson</actor>
-      <actor>Emily Mortimer</actor>
-      <actor>Jonathan Rhys Meyers</actor>
-      <actor>Penelope Wilton</actor>
-    </cast>
-    <duration>124</duration>
-    <distributed-by>DreamWorks Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music />
-    <box-office>85.3</box-office>
-  </movie>
-  <movie>
-    <title>Avengers: Endgame</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg</image-URL>
-    <release-date-USA>April 22, 2019</release-date-USA>
-    <year>2019</year>
-    <country>United States</country>
-    <director>Anthony Russo</director>
-    <producers>
-      <producer>Kevin Feige</producer>
-    </producers>
-    <cast>
-      <actor>Robert Downey Jr.</actor>
-      <actor>Chris Evans</actor>
-      <actor>Mark Ruffalo</actor>
-      <actor>Chris Hemsworth</actor>
-      <actor>Scarlett Johansson</actor>
-      <actor>Jeremy Renner</actor>
-      <actor>Don Cheadle</actor>
-      <actor>Paul Rudd</actor>
-      <actor>Brie Larson</actor>
-      <actor>Karen Gillan</actor>
-      <actor>Danai Gurira</actor>
-      <actor>Benedict Wong</actor>
-      <actor>Jon Favreau</actor>
-      <actor>Bradley Cooper</actor>
-      <actor>Gwyneth Paltrow</actor>
-      <actor>Josh Brolin</actor>
-    </cast>
-    <duration>181</duration>
-    <distributed-by>Walt Disney Studios</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Alan Silvestri</author>
-    </music>
-    <box-office>2798.0</box-office>
-  </movie>
-  <movie>
-    <title>Avengers: Infinity War</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg</image-URL>
-    <release-date-USA>April 23, 2018</release-date-USA>
-    <year>2018</year>
-    <country>United States</country>
-    <director>Anthony Russo</director>
-    <producers>
-      <producer>Kevin Feige</producer>
-    </producers>
-    <cast>
-      <actor>Robert Downey Jr.</actor>
-      <actor>Chris Hemsworth</actor>
-      <actor>Mark Ruffalo</actor>
-      <actor>Chris Evans</actor>
-      <actor>Scarlett Johansson</actor>
-      <actor>Benedict Cumberbatch</actor>
-      <actor>Don Cheadle</actor>
-      <actor>Tom Holland</actor>
-      <actor>Chadwick Boseman</actor>
-      <actor>Paul Bettany</actor>
-      <actor>Elizabeth Olsen</actor>
-      <actor>Anthony Mackie</actor>
-      <actor>Sebastian Stan</actor>
-      <actor>Danai Gurira</actor>
-      <actor>Letitia Wright</actor>
-      <actor>Dave Bautista</actor>
-      <actor>Zoe Saldana</actor>
-      <actor>Josh Brolin</actor>
-      <actor>Chris Pratt</actor>
-    </cast>
-    <duration>149</duration>
-    <distributed-by>Walt Disney Studios Motion Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Alan Silvestri</author>
-    </music>
-    <box-office>2048.0</box-office>
-  </movie>
-  <movie>
-    <title>Vicky Cristina Barcelona</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/0/05/Vicky_Cristina_Barcelona_film_poster.png</image-URL>
-    <release-date-USA>May 17, 2008</release-date-USA>
-    <year>2008</year>
-    <country>Spain</country>
-    <director>Woody Allen</director>
-    <producers>
-      <producer>Letty Aronson</producer>
-      <producer>Jaume Roures</producer>
-      <producer>Stephen Tenenbaum</producer>
-      <producer>Gareth Wiley</producer>
-    </producers>
-    <cast>
-      <actor>Javier Bardem</actor>
-      <actor>Patricia Clarkson</actor>
-      <actor>Penélope Cruz</actor>
-      <actor>Kevin Dunn</actor>
-      <actor>Rebecca Hall</actor>
-      <actor>Scarlett Johansson</actor>
-      <actor>Chris Messina</actor>
-    </cast>
-    <duration>97</duration>
-    <distributed-by>Mediapro (Spain)</distributed-by>
-    <original-language>English</original-language>
-    <music />
-    <box-office>96.4</box-office>
-  </movie>
-  <movie>
-    <title>Larry Crowne</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/6/6c/Wiki_letter_w.svg/40px-Wiki_letter_w.svg.png</image-URL>
-    <release-date-USA>June 27, 2011</release-date-USA>
-    <year>2011</year>
-    <country>United States</country>
-    <director>Tom Hanks</director>
-    <producers>
-      <producer>Gary Goetzman</producer>
-      <producer>Tom Hanks</producer>
-    </producers>
-    <cast>
-      <actor>Tom Hanks</actor>
-      <actor>Julia Roberts</actor>
-      <actor>Bryan Cranston</actor>
-      <actor>Cedric the Entertainer</actor>
-      <actor>Taraji P. Henson</actor>
-      <actor>Gugu Mbatha-Raw</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Pam Grier</actor>
-    </cast>
-    <duration>99</duration>
-    <distributed-by>Universal Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>James Newton Howard</author>
-    </music>
-    <box-office>72.0</box-office>
-  </movie>
-  <movie>
-    <title>Annie Hall</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/e/e6/Anniehallposter.jpg/220px-Anniehallposter.jpg</image-URL>
-    <release-date-USA>July 2, 1979</release-date-USA>
-    <year>1979</year>
-    <country>United States</country>
-    <director>Woody Allen</director>
-    <producers>
-      <producer>Charles H. Joffe</producer>
-    </producers>
-    <cast>
-      <actor>Woody Allen</actor>
-      <actor>Diane Keaton</actor>
-      <actor>Tony Roberts</actor>
-      <actor>Carol Kane</actor>
-      <actor>Paul Simon</actor>
-      <actor>Janet Margolin</actor>
-      <actor>Shelley Duvall</actor>
-      <actor>Christopher Walken</actor>
-      <actor>Colleen Dewhurst</actor>
-    </cast>
-    <duration>93</duration>
-    <distributed-by>United Artists</distributed-by>
-    <original-language>English</original-language>
-    <music />
-    <box-office>38.3</box-office>
-  </movie>
-  <movie>
-    <title>Midnight in Paris</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg</image-URL>
-    <release-date-USA>May 11, 2011</release-date-USA>
-    <year>2011</year>
-    <country>United States</country>
-    <director>Woody Allen</director>
-    <producers>
-      <producer>Letty Aronson</producer>
-      <producer>Stephen Tenenbaum</producer>
-      <producer>Jaume Roures</producer>
-    </producers>
-    <cast>
-      <actor>Kathy Bates</actor>
-      <actor>Adrien Brody</actor>
-      <actor>Carla Bruni</actor>
-      <actor>Marion Cotillard</actor>
-      <actor>Rachel McAdams</actor>
-      <actor>Michael Sheen</actor>
-      <actor>Owen Wilson</actor>
-    </cast>
-    <duration>94</duration>
-    <distributed-by>Sony Pictures Classics</distributed-by>
-    <original-language>English</original-language>
-    <music />
-    <box-office>154.1</box-office>
-  </movie>
-  <movie>
-    <title>The Village</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/a0/The_Village_movie.jpg/220px-The_Village_movie.jpg</image-URL>
-    <release-date-USA>July 26, 2004</release-date-USA>
-    <year>2004</year>
-    <country>United States</country>
-    <director>M. Night Shyamalan</director>
-    <producers>
-      <producer>Sam Mercer</producer>
-      <producer>Scott Rudin</producer>
-      <producer>M. Night Shyamalan</producer>
-    </producers>
-    <cast>
-      <actor>Joaquin Phoenix</actor>
-      <actor>Adrien Brody</actor>
-      <actor>Bryce Dallas Howard</actor>
-      <actor>William Hurt</actor>
-      <actor>Sigourney Weaver</actor>
-      <actor>Brendan Gleeson</actor>
-    </cast>
-    <duration>108</duration>
-    <distributed-by>Buena Vista Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>James Newton Howard</author>
-    </music>
-    <box-office>256.7</box-office>
-  </movie>
-  <movie>
-    <title>Charlie Wilson's War</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/8/89/Charliewilsonwarposter.jpg/220px-Charliewilsonwarposter.jpg</image-URL>
-    <release-date-USA>December 21, 2007</release-date-USA>
-    <year>2007</year>
-    <country>United States</country>
-    <director>Mike Nichols</director>
-    <producers>
-      <producer>Tom Hanks</producer>
-      <producer>Gary Goetzman</producer>
-    </producers>
-    <cast>
-      <actor>Tom Hanks</actor>
-      <actor>Julia Roberts</actor>
-      <actor>Philip Seymour Hoffman</actor>
-      <actor>Amy Adams</actor>
-      <actor>Ned Beatty</actor>
-    </cast>
-    <duration>100</duration>
-    <distributed-by>Universal Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>James Newton Howard</author>
-    </music>
-    <box-office>119.5</box-office>
-  </movie>
-  <movie>
-    <title>The Terminal</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/8/86/Movie_poster_the_terminal.jpg/220px-Movie_poster_the_terminal.jpg</image-URL>
-    <release-date-USA>June 18, 2004</release-date-USA>
-    <year>2004</year>
-    <country>United States</country>
-    <director>Steven Spielberg</director>
-    <producers>
-      <producer>Walter F. Parkes</producer>
-      <producer>Laurie MacDonald</producer>
-      <producer>Steven Spielberg</producer>
-    </producers>
-    <cast>
-      <actor>Tom Hanks</actor>
-      <actor>Catherine Zeta-Jones</actor>
-      <actor>Stanley Tucci</actor>
-      <actor>Chi McBride</actor>
-      <actor>Diego Luna</actor>
-    </cast>
-    <duration>128</duration>
-    <distributed-by>DreamWorks Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>John Williams</author>
-    </music>
-    <box-office>219.4</box-office>
-  </movie>
-  <movie>
-    <title>Cast Away</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/a7/Cast_away_film_poster.jpg/220px-Cast_away_film_poster.jpg</image-URL>
-    <release-date-USA>December 22, 2000</release-date-USA>
-    <year>2000</year>
-    <country>United States</country>
-    <director>Robert Zemeckis</director>
-    <producers>
-      <producer>Steve Starkey</producer>
-      <producer>Tom Hanks</producer>
-      <producer>Robert Zemeckis</producer>
-      <producer>Jack Rapke</producer>
-    </producers>
-    <cast>
-      <actor>Tom Hanks</actor>
-      <actor>Helen Hunt</actor>
-      <actor>Nick Searcy</actor>
-    </cast>
-    <duration>143</duration>
-    <distributed-by>20th Century Fox</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Alan Silvestri</author>
-    </music>
-    <box-office>429.6</box-office>
-  </movie>
-  <movie>
-    <title>Saving Private Ryan</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/ac/Saving_Private_Ryan_poster.jpg/220px-Saving_Private_Ryan_poster.jpg</image-URL>
-    <release-date-USA>July 24, 1998</release-date-USA>
-    <year>1998</year>
-    <country>United States</country>
-    <director>Steven Spielberg</director>
-    <producers>
-      <producer>Ian Bryce</producer>
-      <producer>Mark Gordon</producer>
-      <producer>Gary Levinsohn</producer>
-      <producer>Steven Spielberg</producer>
-    </producers>
-    <cast>
-      <actor>Tom Hanks</actor>
-      <actor>Edward Burns</actor>
-      <actor>Matt Damon</actor>
-      <actor>Tom Sizemore</actor>
-    </cast>
-    <duration>169</duration>
-    <distributed-by>DreamWorks Pictures (North America)</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>John Williams</author>
-    </music>
-    <box-office>482.3</box-office>
-  </movie>
-  <movie>
-    <title>Quills</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/c/cb/Quills_poster.JPG/220px-Quills_poster.JPG</image-URL>
-    <release-date-USA>2 September 2000</release-date-USA>
-    <year>2000</year>
-    <country>United States</country>
-    <director>Philip Kaufman</director>
-    <producers>
-      <producer>Julia Chasman</producer>
-      <producer>Peter Kaufman</producer>
-      <producer>Nick Wechsler</producer>
-    </producers>
-    <cast>
-      <actor>Geoffrey Rush</actor>
-      <actor>Kate Winslet</actor>
-      <actor>Joaquin Phoenix</actor>
-      <actor>Michael Caine</actor>
-    </cast>
-    <duration>124</duration>
-    <distributed-by>Fox Searchlight Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Stephen Warbeck</author>
-    </music>
-    <box-office>18.0</box-office>
-  </movie>
-  <movie>
-    <title>Walk the Line</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/5a/Walk_the_line_poster.jpg/220px-Walk_the_line_poster.jpg</image-URL>
-    <release-date-USA>September 4, 2005</release-date-USA>
-    <year>2005</year>
-    <country>United States</country>
-    <director>James Mangold</director>
-    <producers>
-      <producer>James Keach</producer>
-      <producer>Cathy Konrad</producer>
-    </producers>
-    <cast>
-      <actor>Joaquin Phoenix</actor>
-      <actor>Reese Witherspoon</actor>
-      <actor>Ginnifer Goodwin</actor>
-      <actor>Robert Patrick</actor>
-    </cast>
-    <duration>136</duration>
-    <distributed-by>20th Century Fox</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>T Bone Burnett</author>
-    </music>
-    <box-office>187.0</box-office>
-  </movie>
-  <movie>
-    <title>Pretty Woman</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/b/b6/Pretty_woman_movie.jpg</image-URL>
-    <release-date-USA>March 23, 1990</release-date-USA>
-    <year>1990</year>
-    <country>United States</country>
-    <director>Garry Marshall</director>
-    <producers>
-      <producer>Arnon Milchan</producer>
-      <producer>Steven Reuther</producer>
-      <producer>Gary W. Goldstein</producer>
-    </producers>
-    <cast>
-      <actor>Richard Gere</actor>
-      <actor>Julia Roberts</actor>
-    </cast>
-    <duration>119</duration>
-    <distributed-by>Buena Vista Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>James Newton Howard</author>
-      <author>Roy Orbison</author>
-    </music>
-    <box-office>463.4</box-office>
-  </movie>
-  <movie>
-    <title>Runaway Bride</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png</image-URL>
-    <release-date-USA>July 30, 1999</release-date-USA>
-    <year>1999</year>
-    <country>United States</country>
-    <director>Garry Marshall</director>
-    <producers>
-      <producer>Ted Field</producer>
-      <producer>Tom Rosenberg</producer>
-      <producer>Scott Kroopf</producer>
-      <producer>Nikhilesh Mehra</producer>
-      <producer>Robert Cort</producer>
-    </producers>
-    <cast>
-      <actor>Julia Roberts</actor>
-      <actor>Richard Gere</actor>
-      <actor>Joan Cusack</actor>
-      <actor>Héctor Elizondo</actor>
-      <actor>Rita Wilson</actor>
-      <actor>Paul Dooley</actor>
-    </cast>
-    <duration>116</duration>
-    <distributed-by>Paramount Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>James Newton Howard</author>
-    </music>
-    <box-office>309.4</box-office>
-  </movie>
-  <movie>
-    <title>Ocean's Eleven</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/6/68/Ocean%27s_Eleven_2001_Poster.jpg</image-URL>
-    <release-date-USA>December 7, 2001</release-date-USA>
-    <year>2001</year>
-    <country>United States</country>
-    <director>Steven Soderbergh</director>
-    <producers>
-      <producer>Jerry Weintraub</producer>
-    </producers>
-    <cast>
-      <actor>George Clooney</actor>
-      <actor>Matt Damon</actor>
-      <actor>Andy García</actor>
-      <actor>Brad Pitt</actor>
-      <actor>Julia Roberts</actor>
-    </cast>
-    <duration>117</duration>
-    <distributed-by>Warner Bros. Pictures</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>David Holmes</author>
-    </music>
-    <box-office>450.7</box-office>
-  </movie>
-  <movie>
-    <title>Smurfs: The Lost Village</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/0/07/Smurfs_The_Lost_Village_poster.jpg/220px-Smurfs_The_Lost_Village_poster.jpg</image-URL>
-    <release-date-USA>April 5, 2017</release-date-USA>
-    <year>2017</year>
-    <country>United States</country>
-    <director>Kelly Asbury</director>
-    <producers>
-      <producer>Jordan Kerner</producer>
-      <producer>Mary Ellen Bauder Andrews</producer>
-    </producers>
-    <cast>
-      <actor>Demi Lovato</actor>
-      <actor>Rainn Wilson</actor>
-      <actor>Joe Manganiello</actor>
-      <actor>Jack McBrayer</actor>
-      <actor>Danny Pudi</actor>
-      <actor>Michelle Rodriguez</actor>
-      <actor>Ellie Kemper</actor>
-      <actor>Ariel Winter</actor>
-      <actor>Meghan Trainor</actor>
-      <actor>Mandy Patinkin</actor>
-      <actor>Julia Roberts</actor>
-      <actor>Narrated by</actor>
-      <actor>Mandy Patinkin</actor>
-    </cast>
-    <duration>90</duration>
-    <distributed-by>Sony Pictures Releasing</distributed-by>
-    <original-language>English</original-language>
-    <music>
-      <author>Christopher Lennertz</author>
-    </music>
-    <box-office>197.2</box-office>
-  </movie>
-  <movie>
-    <title>Ida</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/ab/Ida_%282013_film%29.jpg/220px-Ida_%282013_film%29.jpg</image-URL>
-    <release-date-USA>7 September 2013</release-date-USA>
-    <year>2013</year>
-    <country>Poland</country>
-    <director>Paweł Pawlikowski</director>
-    <producers>
-      <producer>Eric Abraham</producer>
-      <producer>Piotr Dzięcioł</producer>
-      <producer>Ewa Puszczyńska</producer>
-    </producers>
-    <cast>
-      <actor>Agata Kulesza</actor>
-      <actor>Agata Trzebuchowska</actor>
-      <actor>Dawid Ogrodnik</actor>
-    </cast>
-    <duration>82</duration>
-    <distributed-by>Solopan</distributed-by>
-    <original-language>Polish</original-language>
-    <music>
-      <author>Kristian Eidnes Andersen</author>
-    </music>
-    <box-office>15.3</box-office>
-  </movie>
-  <movie>
-    <title>Wild Tales</title>
-    <image-URL>//upload.wikimedia.org/wikipedia/en/5/5e/Relatos_salvajes.jpg</image-URL>
-    <release-date-USA>17 May 2014</release-date-USA>
-    <year>2014</year>
-    <country>Argentina</country>
-    <director>Damián Szifron</director>
-    <producers>
-      <producer>Agustín Almodóvar</producer>
-      <producer>Pedro Almodóvar</producer>
-      <producer>Esther García</producer>
-      <producer>Matías Mosteirín</producer>
-      <producer>Felipe Photiades</producer>
-      <producer>Gerardo Rozín</producer>
-      <producer>Hugo Sigman</producer>
-    </producers>
-    <cast>
-      <actor>Ricardo Darín</actor>
-      <actor>Oscar Martínez</actor>
-      <actor>Leonardo Sbaraglia</actor>
-      <actor>Érica Rivas</actor>
-      <actor>Rita Cortese</actor>
-      <actor>Julieta Zylberberg</actor>
-      <actor>Darío Grandinetti</actor>
-    </cast>
-    <duration>122</duration>
-    <distributed-by>Warner Sogefilms</distributed-by>
-    <original-language>Spanish</original-language>
-    <music>
-      <author>Gustavo Santaolalla</author>
-    </music>
-    <box-office>27.0</box-office>
-  </movie>
+    <movie>
+        <title>The Hobbit: An Unexpected Journey</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg</image-URL>
+        <release-date-USA>28 November 2012</release-date-USA>
+        <year>2012</year>
+        <country>New Zealand</country>
+        <director>Peter Jackson</director>
+        <producers>
+            <producer>Carolynne Cunningham</producer>
+            <producer>Zane Weiner</producer>
+            <producer>Fran Walsh</producer>
+            <producer>Peter Jackson</producer>
+        </producers>
+        <cast>
+            <actor>Ian McKellen</actor>
+            <actor>Martin Freeman</actor>
+            <actor>Richard Armitage</actor>
+            <actor>James Nesbitt</actor>
+            <actor>Ken Stott</actor>
+            <actor>Cate Blanchett</actor>
+            <actor>Ian Holm</actor>
+            <actor>Christopher Lee</actor>
+            <actor>Hugo Weaving</actor>
+            <actor>Elijah Wood</actor>
+            <actor>Andy Serkis</actor>
+        </cast>
+        <duration>169</duration>
+        <distributed-by>Warner Bros. Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Howard Shore</author>
+        </music>
+        <box-office>1021.0</box-office>
+    </movie>
+    <movie>
+        <title>Toy Story</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg</image-URL>
+        <release-date-USA>November 19, 1995</release-date-USA>
+        <year>1995</year>
+        <country>United States</country>
+        <director>John Lasseter</director>
+        <producers>
+            <producer>Bonnie Arnold</producer>
+            <producer>Ralph Guggenheim</producer>
+        </producers>
+        <cast>
+            <actor>Tom Hanks</actor>
+            <actor>Tim Allen</actor>
+            <actor>Don Rickles</actor>
+            <actor>Jim Varney</actor>
+            <actor>Wallace Shawn</actor>
+            <actor>John Ratzenberger</actor>
+            <actor>Annie Potts</actor>
+            <actor>John Morris</actor>
+            <actor>Erik von Detten</actor>
+        </cast>
+        <duration>81</duration>
+        <distributed-by>Buena Vista Pictures Distribution</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Randy Newman</author>
+        </music>
+        <box-office>373.6</box-office>
+    </movie>
+    <movie>
+        <title>Dr. Dolittle</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Dr_dolittle_movie_1998.jpg/220px-Dr_dolittle_movie_1998.jpg</image-URL>
+        <release-date-USA>June 26, 1998</release-date-USA>
+        <year>1998</year>
+        <country>United States</country>
+        <director>Betty Thomas</director>
+        <producers>
+            <producer>John Davis</producer>
+            <producer>David T. Friendly</producer>
+            <producer>Joseph M. Singer</producer>
+        </producers>
+        <cast>
+            <actor>Eddie Murphy</actor>
+            <actor>Ossie Davis</actor>
+            <actor>Oliver Platt</actor>
+        </cast>
+        <duration>85</duration>
+        <distributed-by>20th Century Fox</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Richard Gibbs</author>
+        </music>
+        <box-office>294.4</box-office>
+    </movie>
+    <movie>
+        <title>Sonic the Hedgehog</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sonic_the_Hedgehog_poster.jpg/220px-Sonic_the_Hedgehog_poster.jpg</image-URL>
+        <release-date-USA>January 25, 2020</release-date-USA>
+        <year>2020</year>
+        <country>United States</country>
+        <director>Jeff Fowler</director>
+        <producers>
+            <producer>Neal H. Moritz</producer>
+            <producer>Toby Ascher</producer>
+            <producer>Toru Nakahara</producer>
+            <producer>Takeshi Ito</producer>
+        </producers>
+        <cast>
+            <actor>James Marsden</actor>
+            <actor>Ben Schwartz</actor>
+            <actor>Tika Sumpter</actor>
+            <actor>Jim Carrey</actor>
+            <actor>Narrated by</actor>
+            <actor>Ben Schwartz</actor>
+        </cast>
+        <duration>99</duration>
+        <distributed-by>Paramount Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Tom Holkenborg</author>
+        </music>
+        <box-office>306.8</box-office>
+    </movie>
+    <movie>
+        <title>Schindler's List</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg</image-URL>
+        <release-date-USA>November 30, 1993</release-date-USA>
+        <year>1993</year>
+        <country>United States</country>
+        <director>Steven Spielberg</director>
+        <producers>
+            <producer>Steven Spielberg</producer>
+            <producer>Gerald R. Molen</producer>
+            <producer>Branko Lustig</producer>
+        </producers>
+        <cast>
+            <actor>Liam Neeson</actor>
+            <actor>Ben Kingsley</actor>
+            <actor>Ralph Fiennes</actor>
+            <actor>Caroline Goodall</actor>
+            <actor>Jonathan Sagall</actor>
+            <actor>Embeth Davidtz</actor>
+        </cast>
+        <duration>195</duration>
+        <distributed-by>Universal Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>John Williams</author>
+        </music>
+        <box-office>321.3</box-office>
+    </movie>
+    <movie>
+        <title>The Tiger and the Snow</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png</image-URL>
+        <release-date-USA>2005</release-date-USA>
+        <year>2005</year>
+        <country>Italy</country>
+        <director>Roberto Benigni</director>
+        <producers>
+            <producer>Nicoletta Braschi</producer>
+        </producers>
+        <cast>
+            <actor>Roberto Benigni</actor>
+            <actor>Jean Reno</actor>
+            <actor>Nicoletta Braschi</actor>
+            <actor>Emilia Fox</actor>
+        </cast>
+        <duration>118</duration>
+        <distributed-by />
+        <original-language>Italian</original-language>
+        <music />
+        <box-office>0.0</box-office>
+    </movie>
+    <movie>
+        <title>A Quiet Place</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png</image-URL>
+        <release-date-USA>March 9, 2018</release-date-USA>
+        <year>2018</year>
+        <country>United States</country>
+        <director>John Krasinski</director>
+        <producers>
+            <producer>Michael Bay</producer>
+            <producer>Andrew Form</producer>
+            <producer>Brad Fuller</producer>
+        </producers>
+        <cast>
+            <actor>Emily Blunt</actor>
+            <actor>John Krasinski</actor>
+        </cast>
+        <duration>90</duration>
+        <distributed-by>Paramount Pictures</distributed-by>
+        <original-language>American Sign Language</original-language>
+        <music>
+            <author>Marco Beltrami</author>
+        </music>
+        <box-office>340.9</box-office>
+    </movie>
+    <movie>
+        <title>Pulp Fiction</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg</image-URL>
+        <release-date-USA>May 21, 1994</release-date-USA>
+        <year>1994</year>
+        <country>United States</country>
+        <director>Quentin Tarantino</director>
+        <producers>
+            <producer>Lawrence Bender</producer>
+        </producers>
+        <cast>
+            <actor>John Travolta</actor>
+            <actor>Samuel L. Jackson</actor>
+            <actor>Uma Thurman</actor>
+            <actor>Harvey Keitel</actor>
+            <actor>Tim Roth</actor>
+            <actor>Amanda Plummer</actor>
+            <actor>Maria de Medeiros</actor>
+            <actor>Ving Rhames</actor>
+            <actor>Eric Stoltz</actor>
+            <actor>Rosanna Arquette</actor>
+            <actor>Christopher Walken</actor>
+            <actor>Bruce Willis</actor>
+        </cast>
+        <duration>154</duration>
+        <distributed-by>Miramax Films</distributed-by>
+        <original-language>English</original-language>
+        <music />
+        <box-office>213.9</box-office>
+    </movie>
+    <movie>
+        <title>Thelma &amp; Louise</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/8/8f/Thelma_%26_Louise_poster.png/220px-Thelma_%26_Louise_poster.png</image-URL>
+        <release-date-USA>May 20, 1991</release-date-USA>
+        <year>1991</year>
+        <country>United States</country>
+        <director>Ridley Scott</director>
+        <producers>
+            <producer>Ridley Scott</producer>
+            <producer>Mimi Polk Gitlin</producer>
+        </producers>
+        <cast>
+            <actor>Susan Sarandon</actor>
+            <actor>Geena Davis</actor>
+            <actor>Harvey Keitel</actor>
+        </cast>
+        <duration>129</duration>
+        <distributed-by>Metro-Goldwyn-Mayer</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Hans Zimmer</author>
+        </music>
+        <box-office>45.4</box-office>
+    </movie>
+    <movie>
+        <title>Blade Runner</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/9/9f/Blade_Runner_%281982_poster%29.png/220px-Blade_Runner_%281982_poster%29.png</image-URL>
+        <release-date-USA>June 25, 1982</release-date-USA>
+        <year>1982</year>
+        <country>United States</country>
+        <director>Ridley Scott</director>
+        <producers>
+            <producer>Michael Deeley</producer>
+        </producers>
+        <cast>
+            <actor>Harrison Ford</actor>
+            <actor>Rutger Hauer</actor>
+            <actor>Sean Young</actor>
+            <actor>Edward James Olmos</actor>
+        </cast>
+        <duration>117</duration>
+        <distributed-by>Warner Bros.</distributed-by>
+        <original-language />
+        <music>
+            <author>Vangelis</author>
+        </music>
+        <box-office>41.5</box-office>
+    </movie>
+    <movie>
+        <title>Alien</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Alien_movie_poster.jpg/220px-Alien_movie_poster.jpg</image-URL>
+        <release-date-USA>May 25, 1979</release-date-USA>
+        <year>1979</year>
+        <country>United Kingdom</country>
+        <director>Ridley Scott</director>
+        <producers>
+            <producer>Gordon Carroll</producer>
+            <producer>David Giler</producer>
+            <producer>Walter Hill</producer>
+        </producers>
+        <cast>
+            <actor>Tom Skerritt</actor>
+            <actor>Sigourney Weaver</actor>
+            <actor>Veronica Cartwright</actor>
+            <actor>Harry Dean Stanton</actor>
+            <actor>John Hurt</actor>
+            <actor>Ian Holm</actor>
+            <actor>Yaphet Kotto</actor>
+        </cast>
+        <duration>117</duration>
+        <distributed-by>20th Century Fox</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Jerry Goldsmith</author>
+        </music>
+        <box-office>203.6</box-office>
+    </movie>
+    <movie>
+        <title>Back to the Future</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/d/d2/Back_to_the_Future.jpg/220px-Back_to_the_Future.jpg</image-URL>
+        <release-date-USA>July 3, 1985</release-date-USA>
+        <year>1985</year>
+        <country>United States</country>
+        <director>Robert Zemeckis</director>
+        <producers>
+            <producer>Bob Gale</producer>
+            <producer>Neil Canton</producer>
+        </producers>
+        <cast>
+            <actor>Michael J. Fox</actor>
+            <actor>Christopher Lloyd</actor>
+            <actor>Lea Thompson</actor>
+            <actor>Crispin Glover</actor>
+        </cast>
+        <duration>116</duration>
+        <distributed-by>Universal Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Alan Silvestri</author>
+        </music>
+        <box-office>389.1</box-office>
+    </movie>
+    <movie>
+        <title>E.T. the Extra-Terrestrial</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/6/66/E_t_the_extra_terrestrial_ver3.jpg/220px-E_t_the_extra_terrestrial_ver3.jpg</image-URL>
+        <release-date-USA>May 26, 1982</release-date-USA>
+        <year>1982</year>
+        <country>United States</country>
+        <director>Steven Spielberg</director>
+        <producers>
+            <producer>Kathleen Kennedy</producer>
+            <producer>Steven Spielberg</producer>
+        </producers>
+        <cast>
+            <actor>Dee Wallace</actor>
+            <actor>Peter Coyote</actor>
+            <actor>Henry Thomas</actor>
+        </cast>
+        <duration>114</duration>
+        <distributed-by>Universal Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>John Williams</author>
+        </music>
+        <box-office>792.9</box-office>
+    </movie>
+    <movie>
+        <title>Good Will Hunting</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/52/Good_Will_Hunting.png/220px-Good_Will_Hunting.png</image-URL>
+        <release-date-USA>December 2, 1997</release-date-USA>
+        <year>1997</year>
+        <country>United States</country>
+        <director>Gus Van Sant</director>
+        <producers>
+            <producer>Lawrence Bender</producer>
+        </producers>
+        <cast>
+            <actor>Robin Williams</actor>
+            <actor>Matt Damon</actor>
+            <actor>Ben Affleck</actor>
+            <actor>Stellan Skarsgård</actor>
+            <actor>Minnie Driver</actor>
+        </cast>
+        <duration>126</duration>
+        <distributed-by>Miramax Films</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Danny Elfman</author>
+        </music>
+        <box-office>225.9</box-office>
+    </movie>
+    <movie>
+        <title>The Talented Mr. Ripley</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/2/22/Talented_mr_ripley.jpg/220px-Talented_mr_ripley.jpg</image-URL>
+        <release-date-USA>December 12, 1999</release-date-USA>
+        <year>1999</year>
+        <country>United States</country>
+        <director>Anthony Minghella</director>
+        <producers>
+            <producer>William Horberg</producer>
+            <producer>Tom Sternberg</producer>
+        </producers>
+        <cast>
+            <actor>Matt Damon</actor>
+            <actor>Gwyneth Paltrow</actor>
+            <actor>Jude Law</actor>
+            <actor>Cate Blanchett</actor>
+            <actor>Philip Seymour Hoffman</actor>
+            <actor>Jack Davenport</actor>
+            <actor>James Rebhorn</actor>
+            <actor>Sergio Rubini</actor>
+            <actor>Philip Baker Hall</actor>
+        </cast>
+        <duration>139</duration>
+        <distributed-by>Paramount Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Gabriel Yared</author>
+        </music>
+        <box-office>128.8</box-office>
+    </movie>
+    <movie>
+        <title>The Accidental Tourist</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png</image-URL>
+        <release-date-USA>December 23, 1988</release-date-USA>
+        <year>1988</year>
+        <country>United States</country>
+        <director>Lawrence Kasdan</director>
+        <producers>
+            <producer>Lawrence Kasdan</producer>
+            <producer>Charles Okun</producer>
+            <producer>Michael Grillo</producer>
+        </producers>
+        <cast>
+            <actor>William Hurt</actor>
+            <actor>Kathleen Turner</actor>
+            <actor>Geena Davis</actor>
+            <actor>Bill Pullman</actor>
+        </cast>
+        <duration>121</duration>
+        <distributed-by>Warner Bros.</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>John Williams</author>
+        </music>
+        <box-office>32.6</box-office>
+    </movie>
+    <movie>
+        <title>Match Point</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/8/82/Match_Point_poster.png</image-URL>
+        <release-date-USA>12 May 2005</release-date-USA>
+        <year>2005</year>
+        <country>United Kingdom</country>
+        <director>Woody Allen</director>
+        <producers>
+            <producer>Letty Aronson</producer>
+            <producer>Gareth Wiley</producer>
+            <producer>Lucy Darwin</producer>
+        </producers>
+        <cast>
+            <actor>Brian Cox</actor>
+            <actor>Matthew Goode</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Emily Mortimer</actor>
+            <actor>Jonathan Rhys Meyers</actor>
+            <actor>Penelope Wilton</actor>
+        </cast>
+        <duration>124</duration>
+        <distributed-by>DreamWorks Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music />
+        <box-office>85.3</box-office>
+    </movie>
+    <movie>
+        <title>Avengers: Endgame</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg</image-URL>
+        <release-date-USA>April 22, 2019</release-date-USA>
+        <year>2019</year>
+        <country>United States</country>
+        <director>Anthony Russo</director>
+        <producers>
+            <producer>Kevin Feige</producer>
+        </producers>
+        <cast>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Evans</actor>
+            <actor>Mark Ruffalo</actor>
+            <actor>Chris Hemsworth</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Jeremy Renner</actor>
+            <actor>Don Cheadle</actor>
+            <actor>Paul Rudd</actor>
+            <actor>Brie Larson</actor>
+            <actor>Karen Gillan</actor>
+            <actor>Danai Gurira</actor>
+            <actor>Benedict Wong</actor>
+            <actor>Jon Favreau</actor>
+            <actor>Bradley Cooper</actor>
+            <actor>Gwyneth Paltrow</actor>
+            <actor>Josh Brolin</actor>
+        </cast>
+        <duration>181</duration>
+        <distributed-by>Walt Disney Studios</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Alan Silvestri</author>
+        </music>
+        <box-office>2798.0</box-office>
+    </movie>
+    <movie>
+        <title>Avengers: Infinity War</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg</image-URL>
+        <release-date-USA>April 23, 2018</release-date-USA>
+        <year>2018</year>
+        <country>United States</country>
+        <director>Anthony Russo</director>
+        <producers>
+            <producer>Kevin Feige</producer>
+        </producers>
+        <cast>
+            <actor>Robert Downey Jr.</actor>
+            <actor>Chris Hemsworth</actor>
+            <actor>Mark Ruffalo</actor>
+            <actor>Chris Evans</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Benedict Cumberbatch</actor>
+            <actor>Don Cheadle</actor>
+            <actor>Tom Holland</actor>
+            <actor>Chadwick Boseman</actor>
+            <actor>Paul Bettany</actor>
+            <actor>Elizabeth Olsen</actor>
+            <actor>Anthony Mackie</actor>
+            <actor>Sebastian Stan</actor>
+            <actor>Danai Gurira</actor>
+            <actor>Letitia Wright</actor>
+            <actor>Dave Bautista</actor>
+            <actor>Zoe Saldana</actor>
+            <actor>Josh Brolin</actor>
+            <actor>Chris Pratt</actor>
+        </cast>
+        <duration>149</duration>
+        <distributed-by>Walt Disney Studios Motion Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Alan Silvestri</author>
+        </music>
+        <box-office>2048.0</box-office>
+    </movie>
+    <movie>
+        <title>Vicky Cristina Barcelona</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/0/05/Vicky_Cristina_Barcelona_film_poster.png</image-URL>
+        <release-date-USA>May 17, 2008</release-date-USA>
+        <year>2008</year>
+        <country>Spain</country>
+        <director>Woody Allen</director>
+        <producers>
+            <producer>Letty Aronson</producer>
+            <producer>Jaume Roures</producer>
+            <producer>Stephen Tenenbaum</producer>
+            <producer>Gareth Wiley</producer>
+        </producers>
+        <cast>
+            <actor>Javier Bardem</actor>
+            <actor>Patricia Clarkson</actor>
+            <actor>Penélope Cruz</actor>
+            <actor>Kevin Dunn</actor>
+            <actor>Rebecca Hall</actor>
+            <actor>Scarlett Johansson</actor>
+            <actor>Chris Messina</actor>
+        </cast>
+        <duration>97</duration>
+        <distributed-by>Mediapro (Spain)</distributed-by>
+        <original-language>English</original-language>
+        <music />
+        <box-office>96.4</box-office>
+    </movie>
+    <movie>
+        <title>Larry Crowne</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/6/6c/Wiki_letter_w.svg/40px-Wiki_letter_w.svg.png</image-URL>
+        <release-date-USA>June 27, 2011</release-date-USA>
+        <year>2011</year>
+        <country>United States</country>
+        <director>Tom Hanks</director>
+        <producers>
+            <producer>Gary Goetzman</producer>
+            <producer>Tom Hanks</producer>
+        </producers>
+        <cast>
+            <actor>Tom Hanks</actor>
+            <actor>Julia Roberts</actor>
+            <actor>Bryan Cranston</actor>
+            <actor>Cedric the Entertainer</actor>
+            <actor>Taraji P. Henson</actor>
+            <actor>Gugu Mbatha-Raw</actor>
+            <actor>Wilmer Valderrama</actor>
+            <actor>Pam Grier</actor>
+        </cast>
+        <duration>99</duration>
+        <distributed-by>Universal Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>James Newton Howard</author>
+        </music>
+        <box-office>72.0</box-office>
+    </movie>
+    <movie>
+        <title>Annie Hall</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/e/e6/Anniehallposter.jpg/220px-Anniehallposter.jpg</image-URL>
+        <release-date-USA>July 2, 1979</release-date-USA>
+        <year>1979</year>
+        <country>United States</country>
+        <director>Woody Allen</director>
+        <producers>
+            <producer>Charles H. Joffe</producer>
+        </producers>
+        <cast>
+            <actor>Woody Allen</actor>
+            <actor>Diane Keaton</actor>
+            <actor>Tony Roberts</actor>
+            <actor>Carol Kane</actor>
+            <actor>Paul Simon</actor>
+            <actor>Janet Margolin</actor>
+            <actor>Shelley Duvall</actor>
+            <actor>Christopher Walken</actor>
+            <actor>Colleen Dewhurst</actor>
+        </cast>
+        <duration>93</duration>
+        <distributed-by>United Artists</distributed-by>
+        <original-language>English</original-language>
+        <music />
+        <box-office>38.3</box-office>
+    </movie>
+    <movie>
+        <title>Midnight in Paris</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg</image-URL>
+        <release-date-USA>May 11, 2011</release-date-USA>
+        <year>2011</year>
+        <country>United States</country>
+        <director>Woody Allen</director>
+        <producers>
+            <producer>Letty Aronson</producer>
+            <producer>Stephen Tenenbaum</producer>
+            <producer>Jaume Roures</producer>
+        </producers>
+        <cast>
+            <actor>Kathy Bates</actor>
+            <actor>Adrien Brody</actor>
+            <actor>Carla Bruni</actor>
+            <actor>Marion Cotillard</actor>
+            <actor>Rachel McAdams</actor>
+            <actor>Michael Sheen</actor>
+            <actor>Owen Wilson</actor>
+        </cast>
+        <duration>94</duration>
+        <distributed-by>Sony Pictures Classics</distributed-by>
+        <original-language>English</original-language>
+        <music />
+        <box-office>154.1</box-office>
+    </movie>
+    <movie>
+        <title>The Village</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/a0/The_Village_movie.jpg/220px-The_Village_movie.jpg</image-URL>
+        <release-date-USA>July 26, 2004</release-date-USA>
+        <year>2004</year>
+        <country>United States</country>
+        <director>M. Night Shyamalan</director>
+        <producers>
+            <producer>Sam Mercer</producer>
+            <producer>Scott Rudin</producer>
+            <producer>M. Night Shyamalan</producer>
+        </producers>
+        <cast>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Adrien Brody</actor>
+            <actor>Bryce Dallas Howard</actor>
+            <actor>William Hurt</actor>
+            <actor>Sigourney Weaver</actor>
+            <actor>Brendan Gleeson</actor>
+        </cast>
+        <duration>108</duration>
+        <distributed-by>Buena Vista Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>James Newton Howard</author>
+        </music>
+        <box-office>256.7</box-office>
+    </movie>
+    <movie>
+        <title>Charlie Wilson's War</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/8/89/Charliewilsonwarposter.jpg/220px-Charliewilsonwarposter.jpg</image-URL>
+        <release-date-USA>December 21, 2007</release-date-USA>
+        <year>2007</year>
+        <country>United States</country>
+        <director>Mike Nichols</director>
+        <producers>
+            <producer>Tom Hanks</producer>
+            <producer>Gary Goetzman</producer>
+        </producers>
+        <cast>
+            <actor>Tom Hanks</actor>
+            <actor>Julia Roberts</actor>
+            <actor>Philip Seymour Hoffman</actor>
+            <actor>Amy Adams</actor>
+            <actor>Ned Beatty</actor>
+        </cast>
+        <duration>100</duration>
+        <distributed-by>Universal Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>James Newton Howard</author>
+        </music>
+        <box-office>119.5</box-office>
+    </movie>
+    <movie>
+        <title>The Terminal</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/8/86/Movie_poster_the_terminal.jpg/220px-Movie_poster_the_terminal.jpg</image-URL>
+        <release-date-USA>June 18, 2004</release-date-USA>
+        <year>2004</year>
+        <country>United States</country>
+        <director>Steven Spielberg</director>
+        <producers>
+            <producer>Walter F. Parkes</producer>
+            <producer>Laurie MacDonald</producer>
+            <producer>Steven Spielberg</producer>
+        </producers>
+        <cast>
+            <actor>Tom Hanks</actor>
+            <actor>Catherine Zeta-Jones</actor>
+            <actor>Stanley Tucci</actor>
+            <actor>Chi McBride</actor>
+            <actor>Diego Luna</actor>
+        </cast>
+        <duration>128</duration>
+        <distributed-by>DreamWorks Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>John Williams</author>
+        </music>
+        <box-office>219.4</box-office>
+    </movie>
+    <movie>
+        <title>Cast Away</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/a7/Cast_away_film_poster.jpg/220px-Cast_away_film_poster.jpg</image-URL>
+        <release-date-USA>December 22, 2000</release-date-USA>
+        <year>2000</year>
+        <country>United States</country>
+        <director>Robert Zemeckis</director>
+        <producers>
+            <producer>Steve Starkey</producer>
+            <producer>Tom Hanks</producer>
+            <producer>Robert Zemeckis</producer>
+            <producer>Jack Rapke</producer>
+        </producers>
+        <cast>
+            <actor>Tom Hanks</actor>
+            <actor>Helen Hunt</actor>
+            <actor>Nick Searcy</actor>
+        </cast>
+        <duration>143</duration>
+        <distributed-by>20th Century Fox</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Alan Silvestri</author>
+        </music>
+        <box-office>429.6</box-office>
+    </movie>
+    <movie>
+        <title>Saving Private Ryan</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/ac/Saving_Private_Ryan_poster.jpg/220px-Saving_Private_Ryan_poster.jpg</image-URL>
+        <release-date-USA>July 24, 1998</release-date-USA>
+        <year>1998</year>
+        <country>United States</country>
+        <director>Steven Spielberg</director>
+        <producers>
+            <producer>Ian Bryce</producer>
+            <producer>Mark Gordon</producer>
+            <producer>Gary Levinsohn</producer>
+            <producer>Steven Spielberg</producer>
+        </producers>
+        <cast>
+            <actor>Tom Hanks</actor>
+            <actor>Edward Burns</actor>
+            <actor>Matt Damon</actor>
+            <actor>Tom Sizemore</actor>
+        </cast>
+        <duration>169</duration>
+        <distributed-by>DreamWorks Pictures (North America)</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>John Williams</author>
+        </music>
+        <box-office>482.3</box-office>
+    </movie>
+    <movie>
+        <title>Quills</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/c/cb/Quills_poster.JPG/220px-Quills_poster.JPG</image-URL>
+        <release-date-USA>2 September 2000</release-date-USA>
+        <year>2000</year>
+        <country>United States</country>
+        <director>Philip Kaufman</director>
+        <producers>
+            <producer>Julia Chasman</producer>
+            <producer>Peter Kaufman</producer>
+            <producer>Nick Wechsler</producer>
+        </producers>
+        <cast>
+            <actor>Geoffrey Rush</actor>
+            <actor>Kate Winslet</actor>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Michael Caine</actor>
+        </cast>
+        <duration>124</duration>
+        <distributed-by>Fox Searchlight Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Stephen Warbeck</author>
+        </music>
+        <box-office>18.0</box-office>
+    </movie>
+    <movie>
+        <title>Walk the Line</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/5/5a/Walk_the_line_poster.jpg/220px-Walk_the_line_poster.jpg</image-URL>
+        <release-date-USA>September 4, 2005</release-date-USA>
+        <year>2005</year>
+        <country>United States</country>
+        <director>James Mangold</director>
+        <producers>
+            <producer>James Keach</producer>
+            <producer>Cathy Konrad</producer>
+        </producers>
+        <cast>
+            <actor>Joaquin Phoenix</actor>
+            <actor>Reese Witherspoon</actor>
+            <actor>Ginnifer Goodwin</actor>
+            <actor>Robert Patrick</actor>
+        </cast>
+        <duration>136</duration>
+        <distributed-by>20th Century Fox</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>T Bone Burnett</author>
+        </music>
+        <box-office>187.0</box-office>
+    </movie>
+    <movie>
+        <title>Pretty Woman</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/b/b6/Pretty_woman_movie.jpg</image-URL>
+        <release-date-USA>March 23, 1990</release-date-USA>
+        <year>1990</year>
+        <country>United States</country>
+        <director>Garry Marshall</director>
+        <producers>
+            <producer>Arnon Milchan</producer>
+            <producer>Steven Reuther</producer>
+            <producer>Gary W. Goldstein</producer>
+        </producers>
+        <cast>
+            <actor>Richard Gere</actor>
+            <actor>Julia Roberts</actor>
+        </cast>
+        <duration>119</duration>
+        <distributed-by>Buena Vista Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>James Newton Howard</author>
+            <author>Roy Orbison</author>
+        </music>
+        <box-office>463.4</box-office>
+    </movie>
+    <movie>
+        <title>Runaway Bride</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png</image-URL>
+        <release-date-USA>July 30, 1999</release-date-USA>
+        <year>1999</year>
+        <country>United States</country>
+        <director>Garry Marshall</director>
+        <producers>
+            <producer>Ted Field</producer>
+            <producer>Tom Rosenberg</producer>
+            <producer>Scott Kroopf</producer>
+            <producer>Nikhilesh Mehra</producer>
+            <producer>Robert Cort</producer>
+        </producers>
+        <cast>
+            <actor>Julia Roberts</actor>
+            <actor>Richard Gere</actor>
+            <actor>Joan Cusack</actor>
+            <actor>Héctor Elizondo</actor>
+            <actor>Rita Wilson</actor>
+            <actor>Paul Dooley</actor>
+        </cast>
+        <duration>116</duration>
+        <distributed-by>Paramount Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>James Newton Howard</author>
+        </music>
+        <box-office>309.4</box-office>
+    </movie>
+    <movie>
+        <title>Ocean's Eleven</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/6/68/Ocean%27s_Eleven_2001_Poster.jpg</image-URL>
+        <release-date-USA>December 7, 2001</release-date-USA>
+        <year>2001</year>
+        <country>United States</country>
+        <director>Steven Soderbergh</director>
+        <producers>
+            <producer>Jerry Weintraub</producer>
+        </producers>
+        <cast>
+            <actor>George Clooney</actor>
+            <actor>Matt Damon</actor>
+            <actor>Andy García</actor>
+            <actor>Brad Pitt</actor>
+            <actor>Julia Roberts</actor>
+        </cast>
+        <duration>117</duration>
+        <distributed-by>Warner Bros. Pictures</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>David Holmes</author>
+        </music>
+        <box-office>450.7</box-office>
+    </movie>
+    <movie>
+        <title>Smurfs: The Lost Village</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/0/07/Smurfs_The_Lost_Village_poster.jpg/220px-Smurfs_The_Lost_Village_poster.jpg</image-URL>
+        <release-date-USA>April 5, 2017</release-date-USA>
+        <year>2017</year>
+        <country>United States</country>
+        <director>Kelly Asbury</director>
+        <producers>
+            <producer>Jordan Kerner</producer>
+            <producer>Mary Ellen Bauder Andrews</producer>
+        </producers>
+        <cast>
+            <actor>Demi Lovato</actor>
+            <actor>Rainn Wilson</actor>
+            <actor>Joe Manganiello</actor>
+            <actor>Jack McBrayer</actor>
+            <actor>Danny Pudi</actor>
+            <actor>Michelle Rodriguez</actor>
+            <actor>Ellie Kemper</actor>
+            <actor>Ariel Winter</actor>
+            <actor>Meghan Trainor</actor>
+            <actor>Mandy Patinkin</actor>
+            <actor>Julia Roberts</actor>
+            <actor>Narrated by</actor>
+            <actor>Mandy Patinkin</actor>
+        </cast>
+        <duration>90</duration>
+        <distributed-by>Sony Pictures Releasing</distributed-by>
+        <original-language>English</original-language>
+        <music>
+            <author>Christopher Lennertz</author>
+        </music>
+        <box-office>197.2</box-office>
+    </movie>
+    <movie>
+        <title>Ida</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/thumb/a/ab/Ida_%282013_film%29.jpg/220px-Ida_%282013_film%29.jpg</image-URL>
+        <release-date-USA>7 September 2013</release-date-USA>
+        <year>2013</year>
+        <country>Poland</country>
+        <director>Paweł Pawlikowski</director>
+        <producers>
+            <producer>Eric Abraham</producer>
+            <producer>Piotr Dzięcioł</producer>
+            <producer>Ewa Puszczyńska</producer>
+        </producers>
+        <cast>
+            <actor>Agata Kulesza</actor>
+            <actor>Agata Trzebuchowska</actor>
+            <actor>Dawid Ogrodnik</actor>
+        </cast>
+        <duration>82</duration>
+        <distributed-by>Solopan</distributed-by>
+        <original-language>Polish</original-language>
+        <music>
+            <author>Kristian Eidnes Andersen</author>
+        </music>
+        <box-office>15.3</box-office>
+    </movie>
+    <movie>
+        <title>Wild Tales</title>
+        <image-URL>//upload.wikimedia.org/wikipedia/en/5/5e/Relatos_salvajes.jpg</image-URL>
+        <release-date-USA>17 May 2014</release-date-USA>
+        <year>2014</year>
+        <country>Argentina</country>
+        <director>Damián Szifron</director>
+        <producers>
+            <producer>Agustín Almodóvar</producer>
+            <producer>Pedro Almodóvar</producer>
+            <producer>Esther García</producer>
+            <producer>Matías Mosteirín</producer>
+            <producer>Felipe Photiades</producer>
+            <producer>Gerardo Rozín</producer>
+            <producer>Hugo Sigman</producer>
+        </producers>
+        <cast>
+            <actor>Ricardo Darín</actor>
+            <actor>Oscar Martínez</actor>
+            <actor>Leonardo Sbaraglia</actor>
+            <actor>Érica Rivas</actor>
+            <actor>Rita Cortese</actor>
+            <actor>Julieta Zylberberg</actor>
+            <actor>Darío Grandinetti</actor>
+        </cast>
+        <duration>122</duration>
+        <distributed-by>Warner Sogefilms</distributed-by>
+        <original-language>Spanish</original-language>
+        <music>
+            <author>Gustavo Santaolalla</author>
+        </music>
+        <box-office>27.0</box-office>
+    </movie>
 </movies>

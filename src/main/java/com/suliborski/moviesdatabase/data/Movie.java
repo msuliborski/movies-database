@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Movie {
-    private String title;
+    private String title = "";
     private String imageURL;
     private int year;
     private String releaseDateUSA;

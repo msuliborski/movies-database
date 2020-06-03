@@ -1,5 +1,4 @@
-<?xml encoding="UTF-8"?>
-
+<?xml encoding="UTF-8"?git
 <!ELEMENT movies (movie)+>
     <!ELEMENT movie (title,image-URL,release-date-USA,year,country,director,
             producers,cast,duration,distributed-by,

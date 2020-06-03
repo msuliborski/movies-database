@@ -182,7 +182,7 @@ public class XSLT {
         return Mapper.fileToString("movies-with-cast-count.txt");
     }
     public static String XSLTExercise6(){
-        XSLT.createNewTxt("movies.xml", "movies-to-non-english-movies-xml.xsl", "movies-with-non-english-language.xml");
+        XSLT.createNewXml("movies.xml", "movies-to-non-english-movies-xml.xsl", "movies-with-non-english-language.xml");
         return Mapper.fileToString("movies-with-non-english-language.xml");
     }
 
